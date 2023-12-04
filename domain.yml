@@ -1,0 +1,465 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- name_correction_marksheet_en:
+    use_entities: true
+- detention_after_process_en:
+    use_entities: true
+- pay_fee_online_process_en:
+    use_entities: true
+- paid_less_fees_than_mentioned_en:
+    use_entities: true
+- entered_incorrect_information_while_paying_fees_en:
+    use_entities: true
+- get_duplicate_marksheet_process_en:
+    use_entities: true
+- bonafide_apply_en:
+    use_entities: true
+- admission_cancel_en:
+    use_entities: true
+- refund_fees_en:
+    use_entities: true
+- paid_fees_in_wrong_category_en:
+    use_entities: true
+- get_scholarship_en:
+    use_entities: true
+- get_scholarship_gu:
+    use_entities: true
+- get_scholarship_hi:
+    use_entities: true
+- pay_fee_online_process_hi:
+    use_entities: true
+- pay_fee_online_process_gu:
+    use_entities: true
+- admission_cancel_gu:
+    use_entities: true
+- admission_cancel_hi:
+    use_entities: true
+- detention_after_process_hi:
+    use_entities: true
+- get_duplicate_marksheet_process_gu:
+    use_entities: true
+- get_duplicate_marksheet_process_hi:
+    use_entities: true
+- name_correction_marksheet_gu:
+    use_entities: true
+- refund_fees_gu:
+    use_entities: true
+- paid_fees_in_wrong_category_gu:
+    use_entities: true
+- paid_less_fees_than_mentioned_gu:
+    use_entities: true
+- entered_incorrect_information_while_paying_fees_gu:
+    use_entities: true
+- entered_incorrect_information_while_paying_fees_hi:
+    use_entities: true
+- paid_less_fees_than_mentioned_hi:
+    use_entities: true
+- paid_fees_in_wrong_category_hi:
+    use_entities: true
+- bonafide_apply_hi:
+    use_entities: true
+- bonafide_apply_gu:
+    use_entities: true
+- name_correction_marksheet_hi:
+    use_entities: true
+- refund_fees_hi:
+    use_entities: true
+- detention_after_process_gu:
+    use_entities: true
+- greeting_hello_en:
+    use_entities: true
+- greeting_bye_en:
+    use_entities: true
+- greeting_hello_gu:
+    use_entities: true
+- greeting_hello_hi:
+    use_entities: true
+- greeting_bye_gu:
+    use_entities: true
+- greeting_bye_hi:
+    use_entities: true
+- bot_related_question_en:
+    use_entities: true
+- bot_developers_en:
+    use_entities: true
+- bot_related_question_hi:
+    use_entities: true
+- bot_related_question_gu:
+    use_entities: true
+- bot_developers_hi:
+    use_entities: true
+- bot_developers_gu:
+    use_entities: true
+- name_of_principal_en:
+    use_entities: true
+- name_of_principal_hi:
+    use_entities: true
+- name_of_principal_gu:
+    use_entities: true
+- total_branches_en:
+    use_entities: true
+- total_branches_hi:
+    use_entities: true
+- total_branches_gu:
+    use_entities: true
+- list_of_central_facilities_en:
+    use_entities: true
+- list_of_faculty_in_civil_department_hi:
+    use_entities: true
+- medical_facilities_hi:
+    use_entities: true
+- faculty_contact_for_scholarship_information_hi:
+    use_entities: true
+- faculty_contact_for_scholarship_information_en:
+    use_entities: true
+- medical_facilities_gu:
+    use_entities: true
+- list_of_faculty_in_electrical_department_en:
+    use_entities: true
+- list_of_faculty_in_civil_department_gu:
+    use_entities: true
+- list_of_faculty_in_computer_department_hi:
+    use_entities: true
+- list_of_faculty_in_chemical_department_en:
+    use_entities: true
+- list_of_faculty_in_computer_department_en:
+    use_entities: true
+- list_of_faculty_in_electrical_department_gu:
+    use_entities: true
+- list_of_central_facilities_gu:
+    use_entities: true
+- medical_facilities_en:
+    use_entities: true
+- list_of_faculty_in_electrical_department_hi:
+    use_entities: true
+- list_of_faculty_in_computer_department_gu:
+    use_entities: true
+- list_of_central_facilities_hi:
+    use_entities: true
+- list_of_faculty_in_chemical_department_gu:
+    use_entities: true
+- faculty_contact_for_scholarship_information_gu:
+    use_entities: true
+- list_of_faculty_in_chemical_department_hi:
+    use_entities: true
+- list_of_faculty_in_civil_department_en:
+    use_entities: true
+- list_of_faculty_in_electronics_and_communication_department_gu:
+    use_entities: true
+- list_of_faculty_in_electronics_and_communication_department_hi:
+    use_entities: true
+- list_of_faculty_in_electronics_and_communication_department_en:
+    use_entities: true
+- list_of_faculty_in_information_technology_department_gu:
+    use_entities: true
+- list_of_faculty_in_information_technology_department_hi:
+    use_entities: true
+- list_of_faculty_in_information_technology_department_en:
+    use_entities: true
+- list_of_faculty_in_instrumentation_and_control_department_gu:
+    use_entities: true
+- list_of_faculty_in_instrumentation_and_control_department_hi:
+    use_entities: true
+- list_of_faculty_in_instrumentation_and_control_department_en:
+    use_entities: true
+- list_of_faculty_in_mechanical_engineering_department_gu:
+    use_entities: true
+- list_of_faculty_in_mechanical_engineering_department_hi:
+    use_entities: true
+- list_of_faculty_in_mechanical_engineering_department_en:
+    use_entities: true
+- list_of_faculty_in_power_electronics_department_gu:
+    use_entities: true
+- list_of_faculty_in_power_electronics_department_hi:
+    use_entities: true
+- list_of_faculty_in_power_electronics_department_en:
+    use_entities: true
+- list_of_faculty_in_applied_mechanics_department_gu:
+    use_entities: true
+- list_of_faculty_in_applied_mechanics_department_hi:
+    use_entities: true
+- list_of_faculty_in_applied_mechanics_department_en:
+    use_entities: true
+- list_of_faculty_in_science_and_humanities_department_gu:
+    use_entities: true
+- list_of_faculty_in_science_and_humanities_department_hi:
+    use_entities: true
+- list_of_faculty_in_science_and_humanities_department_en:
+    use_entities: true
+- list_of_branches_en:
+    use_entities: true
+- list_of_branches_hi:
+    use_entities: true
+- list_of_branches_gu:
+    use_entities: true
+- hostel_facility_in_college_en:
+    use_entities: true
+- hostel_facility_in_college_hi:
+    use_entities: true
+- hostel_facility_in_college_gu:
+    use_entities: true
+- transportation_facility_in_college_en:
+    use_entities: true
+- trasportation_facility_in_college_hi:
+    use_entities: true
+- trasportation_facility_in_college_gu:
+    use_entities: true
+- mess_facilities_in_college_en:
+    use_entities: true
+- mess_facilities_in_college_hi:
+    use_entities: true
+- mess_facilities_in_college_gu:
+    use_entities: true
+- library_facility_in_college_en:
+    use_entities: true
+- library_facility_in_college_hi:
+    use_entities: true
+- library_facility_in_college_gu:
+    use_entities: true
+- sport_facility_in_college_en:
+    use_entities: true
+- sport_facility_in_college_hi:
+    use_entities: true
+- sport_facility_in_college_gu:
+    use_entities: true
+- transportation_facility_in_college_hi:
+    use_entities: true
+- transportation_facility_in_college_gu:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_get_scholarship_en:
+  - text: Please follow the given link to get directed to the student section. Please check the provided link. http://vgecg.ac.in/student_section.php.
+  utter_admission_cancel_en:
+  - text: Admission process to all UG programs is carried out by the state level Admission Committee for Professional Courses (ACPC). For more details, visit ACPC website www.jacpcldce.ac.in/be.asp
+  utter_bonafide_apply_en:
+  - text: To apply for bonafide certificate, login through sts portal and apply with the required documents. Please check the provided link. https://www.vgecg.ac.in/sts_login.php
+  utter_detention_after_process_en:
+  - text: Contact your branch student co-ordinator.
+  utter_entered_incorrect_information_while_paying_fees_en:
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents.
+  utter_get_duplicate_marksheet_process_en:
+  - text: To get duplicate marksheet, submit the form with required documents on this site. https://www.gtu.ac.in/StuMarksheet.aspx
+  utter_name_correction_marksheet_en:
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents.
+  utter_paid_fees_in_wrong_category_en:
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents..
+  utter_paid_less_fees_than_mentioned_en:
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents..
+  utter_pay_fee_online_process_en:
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents.
+  utter_refund_fees_en:
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents.
+  utter_get_scholarship_hi:
+  - text: Scholarship ke liye di gayi link par click kare jo aapko student section par le jayegi. Please check the provided link. http://vgecg.ac.in/student_section.php.
+  utter_get_scholarship_gu:
+  - text: Scholarship maate aapeli link par click karo je tamne student section par lai jashe.  Please check the provided link. http://vgecg.ac.in/student_section.php.
+  utter_admission_cancel_hi:
+  - text: Admission process ki koi bhi seva state level Admission Committee for Professional Courses (ACPC) se hogi. jyada jankari ke liye, visit ACPC website www.jacpcldce.ac.in/be.asp
+  utter_admission_cancel_gu:
+  - text: Admission process ni koi pa seva state level Admission Committee for Professional Courses (ACPC) thi thashe. vadhare jankari mate, visit ACPC website www.jacpcldce.ac.in/be.asp
+  utter_bonafide_apply_hi:
+  - text: Bonafide certificate ke liye, sts portal se login kare aur mange hue documents online submit kare. Please check the provided link. https://www.vgecg.ac.in/sts_login.php
+  utter_bonafide_apply_gu:
+  - text: Bonafide  certificate mate, sts portal thi login karo ane mangela documents online submit karo. Please check the provided link. https://www.vgecg.ac.in/sts_login.php
+  utter_detention_after_process_hi:
+  - text: Apne branch ke student co-ordinator se contact kare.
+  utter_detention_after_process_gu:
+  - text: Aapna branch na student co-ordinator ne contact karo.
+  utter_entered_incorrect_information_while_paying_fees_hi:
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
+  utter_entered_incorrect_information_while_paying_fees_gu:
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
+  utter_get_duplicate_marksheet_process_hi:
+  - text: Duplicate marksheet le liye, iss website par mange hue documents ke sath form bhare. https://www.gtu.ac.in/StuMarksheet.aspx
+  utter_get_duplicate_marksheet_process_gu:
+  - text: Duplicate marksheet na mate, aa website par mangela documents sathe form submit karo. https://www.gtu.ac.in/StuMarksheet.aspx
+  utter_name_correction_marksheet_hi:
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
+  utter_name_correction_marksheet_gu:
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
+  utter_paid_fees_in_wrong_category_hi:
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
+  utter_paid_fees_in_wrong_category_gu:
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
+  utter_paid_less_fees_than_mentioned_hi:
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
+  utter_paid_less_fees_than_mentioned_gu:
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
+  utter_pay_fee_online_process_hi:
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
+  utter_pay_fee_online_process_gu:
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
+  utter_refund_fees_hi:
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
+  utter_refund_fees_gu:
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
+  utter_greeting_hello_en:
+  - text: Hello, How may I help you?
+  utter_greeting_hello_hi:
+  - text: Hello, me aapki kese sahayata kar sakta hu?
+  utter_greeting_hello_gu:
+  - text: Hello, Hu tamari kai rite madad kari saku?
+  utter_greeting_bye_en:
+  - text: Bye, Thanks for visiting us.
+  utter_greeting_bye_hi:
+  - text: Bye, Hame visit karne ke liye dhanyadvad.
+  utter_greeting_bye_gu:
+  - text: Bye, Amari mulakat leva mate aabhar.
+  utter_bot_related_question_en:
+  - text: I am a bot. You can ask me questions related to VGEC. I will try my best to answer your questions. You can talk to me in English, Hindi, and Gujarati like you chat with anyone on WhatsApp.
+  utter_bot_developers_en:
+  - text: I was created using the Rasa chatbot framework by Kishan Aghera, Jinesh Majithia, Hirva Mathiya, and Yashvi Modi under the guidance of Prof. Uttam G. Chauhan sir.
+  utter_bot_related_question_hi:
+  - text: Me ek bot hu. Aap mujshe VGEC ke sambhandit prashn puch sakte he. Me aapke sawalo ka jawaab dene ki puri kosish karunga. Aap mujhse English, Hindi aur Gujarati me baat kar sakte he jese aap kisi se WhatsApp par chat karte he.
+  utter_bot_related_question_gu:
+  - text: Hu bot chhu. Tame mane VGEC thi sambhandit prashno puchi sako chho. Hu tamara prashno na jawaabo aapvana no prayatna karis. Tame mari sathe English, Hindi and Gujarati ma vaat kari sako chho, jem k tame WhatsApp par koi pan sathe chat karo chho.
+  utter_bot_developers_hi:
+  - text: Mein Prof. Uttam G. Chauhan sir ke maargadarshan mein Kishan Aghera, Jinesh Majithia, Hirva Mathiya, aur Yashvi Modi dvaara rasa chatbot framework ka upayog karake banaaya gaya tha.
+  utter_bot_developers_gu:
+  - text: Mane Prof. Uttam G. Chauhan sir na Maargdarshan hethal Kishan Aghera, Jinesh Majithia, Hirva Mathiya, ane Yashvi Modi dwara Rasa Chatbot Framework no upayog karine banavama avyo hato.
+  utter_name_of_principal_en:
+  - text: The principal of v g e c is Dr. Nilay N. Bhuptani.
+  utter_name_of_principal_hi:
+  - text: v g e c ke principal ka naam hai Dr. Nilay N. Bhuptani.
+  utter_name_of_principal_gu:
+  - text: v g e c na principal nu naam che Dr. Nilay N. Bhuptani.
+  utter_total_branches_en:
+  - text: There are 11 branches in v g e c.
+  utter_total_branches_hi:
+  - text: v g e c mei 11 branches hai.
+  utter_total_branches_gu:
+  - text: v g e c ma 11 branches che.
+  utter_list_of_central_facilities_en:
+  - text: Central Facilities are, placement cell, Vishveshvariya Auditorium - A block , Chanakya Hall - A block, Homi Bhabha Seminar Hall - J205, Dr. Vikram Sarabhai Seminar Hall - L102, Computer Center - D100, Workshop, Language Laboratory, High Performance Computing Facility (Under Scheme of Assistance for incubators & start-ups, IT/ITes).
+  utter_list_of_central_facilities_gu:
+  - text: Central Facilities che, placement cell, Vishveshvariya Auditorium - A block , Chanakya Hall - A block, Homi Bhabha Seminar Hall - J205, Dr. Vikram Sarabhai Seminar Hall - L102, Computer Center - D100, Workshop, Language Laboratory, High Performance Computing Facility (Under Scheme of Assistance for incubators & start-ups, IT/ITes).
+  utter_list_of_central_facilities_hi:
+  - text: Central Facilities hai, placement cell, Vishveshvariya Auditorium - A block , Chanakya Hall - A block, Homi Bhabha Seminar Hall - J205, Dr. Vikram Sarabhai Seminar Hall - L102, Computer Center - D100, Workshop, Language Laboratory, High Performance Computing Facility (Under Scheme of Assistance for incubators & start-ups, IT/ITes).
+  utter_faculty_contact_for_scholarship_information_gu:
+  - text: Scholarship maate aapeli link par click karo je tamne student section par lai jashe.  Please check the provided link. http://vgecg.ac.in/student_section.php.
+  utter_faculty_contact_for_scholarship_information_hi:
+  - text: Scholarship ke liye di gayi link par click kare jo aapko student section par le jayegi. Please check the provided link. http://vgecg.ac.in/student_section.php.
+  utter_faculty_contact_for_scholarship_information_en:
+  - text: Please follow the given link to get directed to the student section. Please check the provided link. http://vgecg.ac.in/student_section.php.
+  utter_medical_facilities_en:
+  - text: Follow the given link for more information https://www.vgecg.ac.in/medical.php.
+  utter_medical_facilities_hi:
+  - text: Mahiti ke liye di gai link par jai https://www.vgecg.ac.in/medical.php.
+  utter_medical_facilities_gu:
+  - text: Mahiti mate aapeli link par javu https://www.vgecg.ac.in/medical.php.
+  utter_list_of_faculty_in_chemical_department_gu:
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=2.
+  utter_list_of_faculty_in_chemical_department_hi:
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=2.
+  utter_list_of_faculty_in_chemical_department_en:
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=2.
+  utter_list_of_faculty_in_civil_department_gu:
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=4.
+  utter_list_of_faculty_in_civil_department_hi:
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=4.
+  utter_list_of_faculty_in_civil_department_en:
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=4.
+  utter_list_of_faculty_in_computer_department_gu:
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=3.
+  utter_list_of_faculty_in_computer_department_hi:
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=3.
+  utter_list_of_faculty_in_computer_department_en:
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=3.
+  utter_list_of_faculty_in_electrical_department_gu:
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=5.
+  utter_list_of_faculty_in_electrical_department_hi:
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=5.
+  utter_list_of_faculty_in_electrical_department_en:
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=5.
+  utter_list_of_faculty_in_electronics_and_communication_department_gu:
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=6.
+  utter_list_of_faculty_in_electronics_and_communication_department_hi:
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=6.
+  utter_list_of_faculty_in_electronics_and_communication_department_en:
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=6.
+  utter_list_of_faculty_in_information_technology_department_gu:
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=7.
+  utter_list_of_faculty_in_information_technology_department_hi:
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=7.
+  utter_list_of_faculty_in_information_technology_department_en:
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=7.
+  utter_list_of_faculty_in_instrumentation_and_control_department_gu:
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=8.
+  utter_list_of_faculty_in_instrumentation_and_control_department_hi:
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=8.
+  utter_list_of_faculty_in_instrumentation_and_control_department_en:
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=8.
+  utter_list_of_faculty_in_mechanical_engineering_department_gu:
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=9.
+  utter_list_of_faculty_in_mechanical_engineering_department_hi:
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=9.
+  utter_list_of_faculty_in_mechanical_engineering_department_en:
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=9.
+  utter_list_of_faculty_in_power_electronics_department_gu:
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=10.
+  utter_list_of_faculty_in_power_electronics_department_hi:
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=10.
+  utter_list_of_faculty_in_power_electronics_department_en:
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=10.
+  utter_list_of_faculty_in_applied_mechanics_department_gu:
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=12.
+  utter_list_of_faculty_in_applied_mechanics_department_hi:
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=12.
+  utter_list_of_faculty_in_applied_mechanics_department_en:
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=12.
+  utter_list_of_faculty_in_science_and_humanities_department_gu:
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=11.
+  utter_list_of_faculty_in_science_and_humanities_department_hi:
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=11.
+  utter_list_of_faculty_in_science_and_humanities_department_en:
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=11.
+  utter_list_of_branches_en:
+  - text: Computer Engineering, Chemical Engineering, Civil Engineering, Electrical Engineering, Mechanical Engineering, Electronics and Communication, Information Technology, Instrumentation and Control, Power Electronics, Applied Mechanics, Science and Humanities.
+  utter_list_of_branches_hi:
+  - text: Computer Engineering, Chemical Engineering, Civil Engineering, Electrical Engineering, Mechanical Engineering, Electronics and Communication, Information Technology, Instrumentation and Control, Power Electronics, Applied Mechanics, Science and Humanities.
+  utter_list_of_branches_gu:
+  - text: Computer Engineering, Chemical Engineering, Civil Engineering, Electrical Engineering, Mechanical Engineering, Electronics and Communication, Information Technology, Instrumentation and Control, Power Electronics, Applied Mechanics, Science and Humanities.
+  utter_hostel_facility_in_college_en:
+  - text: For information on hostel facility, goto https://www.vgecg.ac.in/hostel.php.
+  utter_hostel_facility_in_college_hi:
+  - text: Hostel facility ki k=jankari ke liye iss site par jai https://www.vgecg.ac.in/hostel.php.
+  utter_hostel_facility_in_college_gu:
+  - text: Hostel facility ni mahiti mate aa site par jav https://www.vgecg.ac.in/hostel.php.
+  utter_transportation_facility_in_college_en:
+  - text: For information on transport facility, goto https://www.vgecg.ac.in/transport.php.
+  utter_transportation_facility_in_college_hi:
+  - text: Transport facility ki jankari ke liye iss site par jai https://www.vgecg.ac.in/transport.php.
+  utter_transportation_facility_in_college_gu:
+  - text: Transport facility ni mahiti mate aa site par jav https://www.vgecg.ac.in/transport.php.
+  utter_mess_facilities_in_college_en:
+  - text: Go to Hostel reception for more information.
+  utter_mess_facilities_in_college_hi:
+  - text: Jankari ke liye Hostel ke reception par jai.
+  utter_mess_facilities_in_college_gu:
+  - text: Mahiti mate Hostel na reception par javu.
+  utter_library_facility_in_college_en:
+  - text: For information on librabry, goto https://www.vgecg.ac.in/library.php.
+  utter_library_facility_in_college_hi:
+  - text: Library ki jankari ke liye iss site par jai Library ni mahiti mate aa site par jav https://www.vgecg.ac.in/library.php..
+  utter_library_facility_in_college_gu:
+  - text: Library ni mahiti mate aa site par jav https://www.vgecg.ac.in/library.php.
+  utter_sport_facility_in_college_en:
+  - text: For information on sports facility, goto https://www.vgecg.ac.in/sports.php.
+  utter_sport_facility_in_college_hi:
+  - text: Sports facility ki jankari ke liye iss site par jai https://www.vgecg.ac.in/sports.php.
+  utter_sport_facility_in_college_gu:
+  - text: Sports facility ni mahiti mate aa site par jav https://www.vgecg.ac.in/sports.php.
+  utter_out_of_scope:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+actions: []
+forms: {}
+e2e_actions: []
