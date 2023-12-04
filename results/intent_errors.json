@@ -1,0 +1,290 @@
+[
+  {
+    "text": "what to do if there is any mistake while paying fees?",
+    "intent": "entered_incorrect_information_while_paying_fees_en",
+    "intent_prediction": {
+      "name": "mess_facilities_in_college_en",
+      "confidence": 0.546208918094635
+    }
+  },
+  {
+    "text": "chalo bye",
+    "intent": "greeting_bye_hi",
+    "intent_prediction": {
+      "name": "list_of_faculty_in_mechanical_engineering_department_en",
+      "confidence": 0.45794031023979187
+    }
+  },
+  {
+    "text": "vgec college ma principal kon 6?",
+    "intent": "name_of_principal_gu",
+    "intent_prediction": {
+      "name": "name_of_principal_hi",
+      "confidence": 0.7695395350456238
+    }
+  },
+  {
+    "text": "How to contact HOD of computer?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "hostel_facility_in_college_gu",
+      "confidence": 0.41604000329971313
+    }
+  },
+  {
+    "text": "how old principal of vgec is?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "name_of_principal_en",
+      "confidence": 0.9860701560974121
+    }
+  },
+  {
+    "text": "muje duplicate marksheet karvani che to uski process kya hai?",
+    "intent": "get_duplicate_marksheet_process_hi",
+    "intent_prediction": {
+      "name": "get_duplicate_marksheet_process_gu",
+      "confidence": 0.7936141490936279
+    }
+  },
+  {
+    "text": "Mujhe dusri college me admission mil gya he to ab mujhe vgec me se admission cancel karavana he, to ab me kya karu?",
+    "intent": "admission_cancel_hi",
+    "intent_prediction": {
+      "name": "admission_cancel_gu",
+      "confidence": 0.5671677589416504
+    }
+  },
+  {
+    "text": "Mujse by mistake fees wrong category me pay ho gai hai to muje refund ke liye kya process karni hogi?",
+    "intent": "paid_fees_in_wrong_category_hi",
+    "intent_prediction": {
+      "name": "refund_fees_hi",
+      "confidence": 0.550872266292572
+    }
+  },
+  {
+    "text": "hii bot muje apse madad chahie kya ap kar sakte hai?",
+    "intent": "greeting_hello_hi",
+    "intent_prediction": {
+      "name": "get_scholarship_hi",
+      "confidence": 0.5167890787124634
+    }
+  },
+  {
+    "text": "bye bot thanks help karne k liye",
+    "intent": "greeting_bye_hi",
+    "intent_prediction": {
+      "name": "greeting_bye_en",
+      "confidence": 0.9962865114212036
+    }
+  },
+  {
+    "text": "Mare total branches ni jankari joie che",
+    "intent": "total_branches_gu",
+    "intent_prediction": {
+      "name": "list_of_branches_gu",
+      "confidence": 0.819593071937561
+    }
+  },
+  {
+    "text": "mane college ni list aapo ne?",
+    "intent": "list_of_central_facilities_gu",
+    "intent_prediction": {
+      "name": "medical_facilities_gu",
+      "confidence": 0.542765736579895
+    }
+  },
+  {
+    "text": "scholarship ki jankari kese milegi?",
+    "intent": "faculty_contact_for_scholarship_information_hi",
+    "intent_prediction": {
+      "name": "get_scholarship_hi",
+      "confidence": 0.965143084526062
+    }
+  },
+  {
+    "text": "please provide information of medical facility in college?",
+    "intent": "medical_facilities_en",
+    "intent_prediction": {
+      "name": "transportation_facility_in_college_en",
+      "confidence": 0.40838298201560974
+    }
+  },
+  {
+    "text": "I want to order food",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "mess_facilities_in_college_en",
+      "confidence": 0.9313316345214844
+    }
+  },
+  {
+    "text": "How many students are there in vgec?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "total_branches_en",
+      "confidence": 0.8173708319664001
+    }
+  },
+  {
+    "text": "My account balance says that the amount for fees were debited twice, now what to do?",
+    "intent": "refund_fees_en",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.589106559753418
+    }
+  },
+  {
+    "text": "Fees biji category ma pay thai gai hoy to refund leva ni procdure su che?",
+    "intent": "paid_fees_in_wrong_category_gu",
+    "intent_prediction": {
+      "name": "refund_fees_gu",
+      "confidence": 0.9950828552246094
+    }
+  },
+  {
+    "text": "Fees biji category ma pay thai gai hoy to refund leva ni procdure su 6?",
+    "intent": "paid_fees_in_wrong_category_gu",
+    "intent_prediction": {
+      "name": "refund_fees_gu",
+      "confidence": 0.9947741031646729
+    }
+  },
+  {
+    "text": "category galat chhose kar li thi fees pay karne k time par to kya process karni hogi?",
+    "intent": "entered_incorrect_information_while_paying_fees_hi",
+    "intent_prediction": {
+      "name": "paid_fees_in_wrong_category_hi",
+      "confidence": 0.5571559071540833
+    }
+  },
+  {
+    "text": "colege ki sari facility janhi hai muje.",
+    "intent": "list_of_central_facilities_hi",
+    "intent_prediction": {
+      "name": "list_of_faculty_in_information_technology_department_hi",
+      "confidence": 0.23349839448928833
+    }
+  },
+  {
+    "text": "muje scholarship ki query hai faculty ka mail id kya hai?",
+    "intent": "faculty_contact_for_scholarship_information_hi",
+    "intent_prediction": {
+      "name": "get_scholarship_hi",
+      "confidence": 0.7942885756492615
+    }
+  },
+  {
+    "text": "medical facility no venue kya che?",
+    "intent": "medical_facilities_gu",
+    "intent_prediction": {
+      "name": "medical_facilities_hi",
+      "confidence": 0.8197886943817139
+    }
+  },
+  {
+    "text": "Agar galati fees dusri category me pay ho gai ho to refund kese mil sakta hai?",
+    "intent": "refund_fees_hi",
+    "intent_prediction": {
+      "name": "paid_fees_in_wrong_category_hi",
+      "confidence": 0.8533406257629395
+    }
+  },
+  {
+    "text": "alag alag scholarship ke liye conatacts kya hai?",
+    "intent": "faculty_contact_for_scholarship_information_hi",
+    "intent_prediction": {
+      "name": "get_scholarship_hi",
+      "confidence": 0.6401767730712891
+    }
+  },
+  {
+    "text": "konse din suvidhaye milti hai?",
+    "intent": "medical_facilities_hi",
+    "intent_prediction": {
+      "name": "list_of_central_facilities_hi",
+      "confidence": 0.8117113709449768
+    }
+  },
+  {
+    "text": "Who's the US President?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "name_of_principal_en",
+      "confidence": 0.9312664866447449
+    }
+  },
+  {
+    "text": "can you tell me what time it is",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "name_of_principal_en",
+      "confidence": 0.9019295573234558
+    }
+  },
+  {
+    "text": "can you tell me about the temperature",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "mess_facilities_in_college_en",
+      "confidence": 0.6227666735649109
+    }
+  },
+  {
+    "text": "I have paid fees in wrong category then how to refund the fees?",
+    "intent": "paid_fees_in_wrong_category_en",
+    "intent_prediction": {
+      "name": "refund_fees_en",
+      "confidence": 0.9895626306533813
+    }
+  },
+  {
+    "text": "I have paid fees in wrong category then how to get refund of fees?",
+    "intent": "paid_fees_in_wrong_category_en",
+    "intent_prediction": {
+      "name": "refund_fees_en",
+      "confidence": 0.9991081357002258
+    }
+  },
+  {
+    "text": "kese ho? Muje el query hai?",
+    "intent": "greeting_hello_hi",
+    "intent_prediction": {
+      "name": "library_facility_in_college_hi",
+      "confidence": 0.7071026563644409
+    }
+  },
+  {
+    "text": "nam kya hai aacharya ka?",
+    "intent": "name_of_principal_hi",
+    "intent_prediction": {
+      "name": "library_facility_in_college_hi",
+      "confidence": 0.35925859212875366
+    }
+  },
+  {
+    "text": "name kya hain aacharya ka?",
+    "intent": "name_of_principal_hi",
+    "intent_prediction": {
+      "name": "list_of_faculty_in_electrical_department_hi",
+      "confidence": 0.38890907168388367
+    }
+  },
+  {
+    "text": "scholarship mate kone contact karu?",
+    "intent": "faculty_contact_for_scholarship_information_gu",
+    "intent_prediction": {
+      "name": "get_scholarship_gu",
+      "confidence": 0.6935447454452515
+    }
+  },
+  {
+    "text": "scolarship ki infomation k liye faculty ka contact kya hai?",
+    "intent": "faculty_contact_for_scholarship_information_hi",
+    "intent_prediction": {
+      "name": "list_of_faculty_in_science_and_humanities_department_hi",
+      "confidence": 0.5029904246330261
+    }
+  }
+]
