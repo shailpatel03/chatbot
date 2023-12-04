@@ -1,0 +1,595 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+# - story: happy path 1
+#   steps:
+#   - user: |
+#       hello there!
+#     intent: greet
+#   - action: utter_greet
+#   - user: |
+#       amazing
+#     intent: mood_great
+#   - action: utter_happy
+
+# - story: happy path 2
+#   steps:
+#   - user: |
+#       hello there!
+#     intent: greet
+#   - action: utter_greet
+#   - user: |
+#       amazing
+#     intent: mood_great
+#   - action: utter_happy
+#   - user: |
+#       bye-bye!
+#     intent: goodbye
+#   - action: utter_goodbye
+
+# - story: sad path 1
+#   steps:
+#   - user: |
+#       hello
+#     intent: greet
+#   - action: utter_greet
+#   - user: |
+#       not good
+#     intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - user: |
+#       yes
+#     intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - user: |
+#       hello
+#     intent: greet
+#   - action: utter_greet
+#   - user: |
+#       not good
+#     intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - user: |
+#       not really
+#     intent: deny
+#   - action: utter_goodbye
+
+# - story: sad path 3
+#   steps:
+#   - user: |
+#       hi
+#     intent: greet
+#   - action: utter_greet
+#   - user: |
+#       very terrible
+#     intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - user: |
+#       no
+#     intent: deny
+#   - action: utter_goodbye
+
+# - story: say goodbye
+#   steps:
+#   - user: |
+#       bye-bye!
+#     intent: goodbye
+#   - action: utter_goodbye
+
+# - story: bot challenge
+#   steps:
+#   - user: |
+#       are you a bot?
+#     intent: bot_challenge
+#   - action: utter_iamabot
+
+- story: name correction marksheet 1
+  steps:
+  - user: |
+      How to correct my name in the mark sheet?
+    intent: name_correction_marksheet_en
+  - action: utter_name_correction_marksheet_en
+
+- story: name correction marksheet 2
+  steps:
+  - user: |
+      How do I get my name corrected in the mark sheet?
+    intent: name_correction_marksheet_en
+  - action: utter_name_correction_marksheet_en
+
+- story: name correction marksheet 3
+  steps:
+  - user: |
+      What is the procedure to get my name corrected in the mark sheet?
+    intent: name_correction_marksheet_en
+  - action: utter_name_correction_marksheet_en
+
+- story: name correction marksheet 4
+  steps:
+  - user: |
+      How to change name in the mark sheet?
+    intent: name_correction_marksheet_en
+  - action: utter_name_correction_marksheet_en
+
+- story: name correction marksheet 5
+  steps:
+  - user: |
+      The marksheet contains wrong name of me, what to do?
+    intent: name_correction_marksheet_en
+  - action: utter_name_correction_marksheet_en
+
+- story: name correction marksheet 6
+  steps:
+  - user: |
+      My name in marksheet was written wrong, now what to do?
+    intent: name_correction_marksheet_en
+  - action: utter_name_correction_marksheet_en
+
+- story: paid fees in wrong category 1
+  steps:
+  - user: |
+      I have paid fees in the wrong category. What to do?
+    intent: paid_fees_in_wrong_category_en
+  - action: utter_paid_fees_in_wrong_category_en
+
+- story: paid fees in wrong category 2
+  steps:
+  - user: |
+      I paid my fees in different branch, what to do?
+    intent: paid_fees_in_wrong_category_en
+  - action: utter_paid_fees_in_wrong_category_en
+
+- story: paid fees in wrong category 3
+  steps:
+  - user: |
+      I was paying fees for GTU exam, but paid in VGEC term fee category, now what to do?
+    intent: paid_fees_in_wrong_category_en
+  - action: utter_paid_fees_in_wrong_category_en
+
+- story: paid fees in wrong category 4
+  steps:
+  - user: |
+      I had to pay in non-tfws category but paid my fees in tfws category, what to do?
+    intent: paid_fees_in_wrong_category_en
+  - action: utter_paid_fees_in_wrong_category_en
+
+- story: paid fees in wrong category 5
+  steps:
+  - user: |
+      I paid in tfws category instead of non-tfws category, now what to do?
+    intent: paid_fees_in_wrong_category_en
+  - action: utter_paid_fees_in_wrong_category_en
+
+- story: paid fees in wrong category 6
+  steps:
+  - user: |
+      I have paid fees in wrong category then how to refund the fees?
+    intent: paid_fees_in_wrong_category_en
+  - action: utter_paid_fees_in_wrong_category_en
+
+- story: entered incorrect information while paying fees 1
+  steps:
+  - user: |
+      I have entered incorrect enrollment no. while paying the fees, what to do now?
+    intent: entered_incorrect_information_while_paying_fees_en
+  - action: utter_entered_incorrect_information_while_paying_fees_en
+
+- story: entered incorrect information while paying fees 2
+  steps:
+  - user: |
+      I have entered incorrect branch while paying the fees, what to do now?
+    intent: entered_incorrect_information_while_paying_fees_en
+  - action: utter_entered_incorrect_information_while_paying_fees_en
+
+- story: entered incorrect information while paying fees 3
+  steps:
+  - user: |
+      I had written wrong enrollment no while paying fees, now what to do?
+    intent: entered_incorrect_information_while_paying_fees_en
+  - action: utter_entered_incorrect_information_while_paying_fees_en
+
+- story: entered incorrect information while paying fees 4
+  steps:
+  - user: |
+      I had written wrong phone no while paying fees, what should I do now?
+    intent: entered_incorrect_information_while_paying_fees_en
+  - action: utter_entered_incorrect_information_while_paying_fees_en
+
+- story: entered incorrect information while paying fees 5
+  steps:
+  - user: |
+      I had written wrong email id while paying fees, what to do now?
+    intent: entered_incorrect_information_while_paying_fees_en
+  - action: utter_entered_incorrect_information_while_paying_fees_en
+
+- story: entered incorrect information while paying fees 6
+  steps:
+  - user: |
+      I had selected wrong branch, what to do?
+    intent: entered_incorrect_information_while_paying_fees_en
+  - action: utter_entered_incorrect_information_while_paying_fees_en
+
+- story: get scholarship gujarati 1
+  steps:
+  - user: |
+      Scholarship kai rite male?
+    intent: get_scholarship_gu
+  - action: utter_get_scholarship_gu
+
+- story: get scholarship gujarati 2
+  steps:
+  - user: |
+      Scholarship mate kai rite apply karu?
+    intent: get_scholarship_gu
+  - action: utter_get_scholarship_gu
+
+- story: get scholarship gujarati 3
+  steps:
+  - user: |
+      Mare scholarship joie chhe, to kai rite malse?
+    intent: get_scholarship_gu
+  - action: utter_get_scholarship_gu
+
+- story: get scholarship gujarati 4
+  steps:
+  - user: |
+      Scholarship melavani rit su?
+    intent: get_scholarship_gu
+  - action: utter_get_scholarship_gu
+
+- story: get scholarship gujarati 5
+  steps:
+  - user: |
+      scholarship joie chhe, to kai rite male?
+    intent: get_scholarship_gu
+  - action: utter_get_scholarship_gu
+
+- story: get scholarship 1
+  steps:
+  - user: |
+      How to get scholarship?
+    intent: get_scholarship_en
+  - action: utter_get_scholarship_en
+
+- story: get scholarship 2
+  steps:
+  - user: |
+      I want a scholarship, how to get it?
+    intent: get_scholarship_en
+  - action: utter_get_scholarship_en
+
+- story: get scholarship 2
+  steps:
+  - user: |
+      How can I get my scholarship?
+    intent: get_scholarship_en
+  - action: utter_get_scholarship_en
+
+- story: get scholarship hindi 1
+  steps:
+  - user: |
+      Scholarship kese milti he?
+    intent: get_scholarship_hi
+  - action: utter_get_scholarship_hi
+
+- story: get scholarship hindi 2
+  steps:
+  - user: |
+      Muje scholarship chahie to kese apply karna hain?
+    intent: get_scholarship_hi
+  - action: utter_get_scholarship_hi
+
+- story: get scholarship hindi 3
+  steps:
+  - user: |
+      Muje scholarship chaie, kese mil sakti he?
+    intent: get_scholarship_hi
+  - action: utter_get_scholarship_hi
+
+- story: get scholarship hindi 4
+  steps:
+  - user: |
+      muje scholarship chaaie, to kese mil sakti he?
+    intent: get_scholarship_hi
+  - action: utter_get_scholarship_hi
+
+- story: list of central facilities
+  steps:
+  - user: |
+      give the list of central facilities
+    intent: list_of_central_facilities_en
+  - action: utter_list_of_central_facilities_en
+
+- story: list of central facilities
+  steps:
+  - user: |
+      central facilities kai che list aapo
+    intent: list_of_central_facilities_gu
+  - action: utter_list_of_central_facilities_gu
+
+- story: list of central facilities
+  steps:
+  - user: |
+      college me central facilities konsi hai?
+    intent: list_of_central_facilities_hi
+  - action: utter_list_of_central_facilities_hi
+
+- story: faculty contact for scholarship information
+  steps:
+  - user: |
+      which faculty to contact for scholarship information
+    intent: faculty_contact_for_scholarship_information_en
+  - action: utter_faculty_contact_for_scholarship_information_en
+
+- story: faculty contact for scholarship information
+  steps:
+  - user: |
+      scholarship information mate kai faculty ne contact karvanu
+    intent: faculty_contact_for_scholarship_information_gu
+  - action: utter_faculty_contact_for_scholarship_information_gu
+
+- story: faculty contact for scholarship information
+  steps:
+  - user: |
+      scholarship information k liye konsi faculty ko sampark karne ka
+    intent: faculty_contact_for_scholarship_information_hi
+  - action: utter_faculty_contact_for_scholarship_information_hi
+
+- story: medical facilities
+  steps:
+  - user: |
+      what are the medical facilities available
+    intent: medical_facilities_en
+  - action: utter_medical_facilities_en
+
+- story: medical facilities
+  steps:
+  - user: |
+      kai medical facilities college ma male che
+    intent: medical_facilities_gu
+  - action: utter_medical_facilities_gu
+
+- story: medical facilities
+  steps:
+  - user: |
+      konsi medical facilities college me hai
+    intent: medical_facilities_hi
+  - action: utter_medical_facilities_hi
+
+- story: list of faculty in chemical department
+  steps:
+  - user: |
+      give me the list of faculty in chemical department
+    intent: list_of_faculty_in_chemical_department_en
+  - action: utter_list_of_faculty_in_chemical_department_en
+
+- story: list of faculty in chemical department
+  steps:
+  - user: |
+      chemical department ni faculty ni list aapo
+    intent: list_of_faculty_in_chemical_department_gu
+  - action: utter_list_of_faculty_in_chemical_department_gu
+
+- story: list of faculty in chemical department
+  steps:
+  - user: |
+      chemical department ki faculty ki list chahiye
+    intent: list_of_faculty_in_chemical_department_hi
+  - action: utter_list_of_faculty_in_chemical_department_hi
+
+- story: list of faculty in civil department
+  steps:
+  - user: |
+      give me the list of faculty in civil department
+    intent: list_of_faculty_in_civil_department_en
+  - action: utter_list_of_faculty_in_civil_department_en
+
+- story: list of faculty in civil department
+  steps:
+  - user: |
+      civil department ni faculty ni list aapo
+    intent: list_of_faculty_in_civil_department_gu
+  - action: utter_list_of_faculty_in_civil_department_gu
+
+- story: list of faculty in civil department
+  steps:
+  - user: |
+      civil department ki faculty ki list chahiye
+    intent: list_of_faculty_in_civil_department_hi
+  - action: utter_list_of_faculty_in_civil_department_hi
+
+- story: list of faculty in computer department
+  steps:
+  - user: |
+      give me the list of faculty in computer department
+    intent: list_of_faculty_in_computer_department_en
+  - action: utter_list_of_faculty_in_computer_department_en
+
+- story: list of faculty in computer department
+  steps:
+  - user: |
+      computer department ni faculty ni list aapo
+    intent: list_of_faculty_in_computer_department_gu
+  - action: utter_list_of_faculty_in_computer_department_gu
+
+- story: list of faculty in computer department
+  steps:
+  - user: |
+      computer department ki faculty ki list chahiye
+    intent: list_of_faculty_in_computer_department_hi
+  - action: utter_list_of_faculty_in_computer_department_hi
+
+- story: list of faculty in electrical department
+  steps:
+  - user: |
+      give me the list of faculty in electrical department
+    intent: list_of_faculty_in_electrical_department_en
+  - action: utter_list_of_faculty_in_electrical_department_en
+
+- story: list of faculty in electrical department
+  steps:
+  - user: |
+      electrical department ni faculty ni list aapo
+    intent: list_of_faculty_in_electrical_department_gu
+  - action: utter_list_of_faculty_in_electrical_department_gu
+
+- story: list of faculty in electrical department
+  steps:
+  - user: |
+      electrical department ki faculty ki list chahiye
+    intent: list_of_faculty_in_electrical_department_hi
+  - action: utter_list_of_faculty_in_electrical_department_hi
+
+- story: list of faculty in electronics and communication department
+  steps:
+  - user: |
+      give me the list of faculty in electronics and communication department
+    intent: list_of_faculty_in_electronics_and_communication_department_en
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_en
+
+- story: list of faculty in electronics and communication department
+  steps:
+  - user: |
+      electronics and communication department ni faculty ni list aapo
+    intent: list_of_faculty_in_electronics_and_communication_department_gu
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_gu
+
+- story: list of faculty in electronics and communication department
+  steps:
+  - user: |
+      electronics and communication department ki faculty ki list chahiye
+    intent: list_of_faculty_in_electronics_and_communication_department_hi
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_hi
+
+- story: list of faculty in information technology department
+  steps:
+  - user: |
+      give me the list of faculty in information technology department
+    intent: list_of_faculty_in_information_technology_department_en
+  - action: utter_list_of_faculty_in_information_technology_department_en
+
+- story: list of faculty in information technology department
+  steps:
+  - user: |
+      information technology department ni faculty ni list aapo
+    intent: list_of_faculty_in_information_technology_department_gu
+  - action: utter_list_of_faculty_in_information_technology_department_gu
+
+- story: list of faculty in information technology department
+  steps:
+  - user: |
+      information technology department ki faculty ki list chahiye
+    intent: list_of_faculty_in_information_technology_department_hi
+  - action: utter_list_of_faculty_in_information_technology_department_hi
+
+- story: list of faculty in instrumentation and control department
+  steps:
+  - user: |
+      give me the list of faculty in instrumentation and control department
+    intent: list_of_faculty_in_instrumentation_and_control_department_en
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_en
+
+- story: list of faculty in instrumentation and control department
+  steps:
+  - user: |
+      instrumentation and control department ni faculty ni list aapo
+    intent: list_of_faculty_in_instrumentation_and_control_department_gu
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_gu
+
+- story: list of faculty in instrumentation and control department
+  steps:
+  - user: |
+      instrumentation and control department ki faculty ki list chahiye
+    intent: list_of_faculty_in_instrumentation_and_control_department_hi
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_hi
+
+- story: list of faculty in mechanical department
+  steps:
+  - user: |
+      give me the list of faculty in mechanical department
+    intent: list_of_faculty_in_mechanical_engineering_department_en
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_en
+
+- story: list of faculty in mechanical department
+  steps:
+  - user: |
+      mechanical department ni faculty ni list aapo
+    intent: list_of_faculty_in_mechanical_engineering_department_gu
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_gu
+
+- story: list of faculty in mechanical department
+  steps:
+  - user: |
+      mechanical department ki faculty ki list chahiye
+    intent: list_of_faculty_in_mechanical_engineering_department_hi
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_hi
+
+- story: list of faculty in power electronics department
+  steps:
+  - user: |
+      give me the list of faculty in power electronics department
+    intent: list_of_faculty_in_power_electronics_department_en
+  - action: utter_list_of_faculty_in_power_electronics_department_en
+
+- story: list of faculty in power electronics department
+  steps:
+  - user: |
+      power electronics department ni faculty ni list aapo
+    intent: list_of_faculty_in_power_electronics_department_gu
+  - action: utter_list_of_faculty_in_power_electronics_department_gu
+
+- story: list of faculty in power electronics department
+  steps:
+  - user: |
+      power electronics department ki faculty ki list chahiye
+    intent: list_of_faculty_in_power_electronics_department_hi
+  - action: utter_list_of_faculty_in_power_electronics_department_hi
+
+- story: list of faculty in applied mechanics department
+  steps:
+  - user: |
+      give me the list of faculty in applied mechanics department
+    intent: list_of_faculty_in_applied_mechanics_department_en
+  - action: utter_list_of_faculty_in_applied_mechanics_department_en
+
+- story: list of faculty in applied mechanics department
+  steps:
+  - user: |
+      applied mechanics department ni faculty ni list aapo
+    intent: list_of_faculty_in_applied_mechanics_department_gu
+  - action: utter_list_of_faculty_in_applied_mechanics_department_gu
+
+- story: list of faculty in applied mechanics department
+  steps:
+  - user: |
+      applied mechanics department ki faculty ki list chahiye
+    intent: list_of_faculty_in_applied_mechanics_department_hi
+  - action: utter_list_of_faculty_in_applied_mechanics_department_hi
+
+- story: list of faculty in science and humanities department
+  steps:
+  - user: |
+      give me the list of faculty in science and humanities department
+    intent: list_of_faculty_in_science_and_humanities_department_en
+  - action: utter_list_of_faculty_in_science_and_humanities_department_en
+
+- story: list of faculty in science and humanities department
+  steps:
+  - user: |
+      science and humanities department ni faculty ni list aapo
+    intent: list_of_faculty_in_science_and_humanities_department_gu
+  - action: utter_list_of_faculty_in_science_and_humanities_department_gu
+
+- story: list of faculty in science and humanities department
+  steps:
+  - user: |
+      science and humanities department ki faculty ki list chahiye
+    intent: list_of_faculty_in_science_and_humanities_department_hi
+  - action: utter_list_of_faculty_in_science_and_humanities_department_hi
