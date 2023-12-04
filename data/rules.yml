@@ -1,0 +1,450 @@
+version: "2.0"
+rules:
+- rule: Admission Cancel in English
+  steps:
+  - intent: admission_cancel_en
+  - action: utter_admission_cancel_en
+- rule: Bonafide Apply in English
+  steps:
+  - intent: bonafide_apply_en
+  - action: utter_bonafide_apply_en
+- rule: Detention after process in English
+  steps:
+  - intent: detention_after_process_en
+  - action: utter_detention_after_process_en
+- rule: Entered incorrect information while paying fees in English
+  steps:
+  - intent: entered_incorrect_information_while_paying_fees_en
+  - action: utter_entered_incorrect_information_while_paying_fees_en
+- rule: Get duplicate marksheet process in English
+  steps:
+  - intent: get_duplicate_marksheet_process_en
+  - action: utter_get_duplicate_marksheet_process_en
+- rule: Get Scholarship in English
+  steps:
+  - intent: get_scholarship_en
+  - action: utter_get_scholarship_en
+- rule: Name correction in marksheet in English
+  steps:
+  - intent: name_correction_marksheet_en
+  - action: utter_name_correction_marksheet_en
+- rule: Paid fees in wrong category in English
+  steps:
+  - intent: paid_fees_in_wrong_category_en
+  - action: utter_paid_fees_in_wrong_category_en
+- rule: Paid less fees than mentioned in English
+  steps:
+  - intent: paid_less_fees_than_mentioned_en
+  - action: utter_paid_less_fees_than_mentioned_en
+- rule: Pay fee online process in English
+  steps:
+  - intent: pay_fee_online_process_en
+  - action: utter_pay_fee_online_process_en
+- rule: Refund Fees in English
+  steps:
+  - intent: refund_fees_en
+  - action: utter_refund_fees_en
+- rule: Get Scholarship in Gujarati
+  steps:
+  - intent: get_scholarship_gu
+  - action: utter_get_scholarship_gu
+- rule: Get Scholarship in Hindi
+  steps:
+  - intent: get_scholarship_hi
+  - action: utter_get_scholarship_hi
+- rule: Admission Cancel in Hindi
+  steps:
+  - intent: admission_cancel_hi
+  - action: utter_admission_cancel_hi
+- rule: Admission Cancel in Gujarati
+  steps:
+  - intent: admission_cancel_gu
+  - action: utter_admission_cancel_gu
+- rule: Bonafide Apply in Hindi
+  steps:
+  - intent: bonafide_apply_hi
+  - action: utter_bonafide_apply_hi
+- rule: Bonafide Apply in Gujarati
+  steps:
+  - intent: bonafide_apply_gu
+  - action: utter_bonafide_apply_gu
+- rule: Detention after process in Hindi
+  steps:
+  - intent: detention_after_process_hi
+  - action: utter_detention_after_process_hi
+- rule: Detention after process in Gujarati
+  steps:
+  - intent: detention_after_process_gu
+  - action: utter_detention_after_process_gu
+- rule: Entered incorrect information while paying fees in Hindi
+  steps:
+  - intent: entered_incorrect_information_while_paying_fees_hi
+  - action: utter_entered_incorrect_information_while_paying_fees_hi
+- rule: Entered incorrect information while paying fees in Gujarati
+  steps:
+  - intent: entered_incorrect_information_while_paying_fees_gu
+  - action: utter_entered_incorrect_information_while_paying_fees_gu
+- rule: Get duplicate marksheet process in Hindi
+  steps:
+  - intent: get_duplicate_marksheet_process_hi
+  - action: utter_get_duplicate_marksheet_process_hi
+- rule: Get duplicate marksheet process in Gujarati
+  steps:
+  - intent: get_duplicate_marksheet_process_gu
+  - action: utter_get_duplicate_marksheet_process_gu
+- rule: Name correction in marksheet in Hindi
+  steps:
+  - intent: name_correction_marksheet_hi
+  - action: utter_name_correction_marksheet_hi
+- rule: Name correction in marksheet in Gujarati
+  steps:
+  - intent: name_correction_marksheet_gu
+  - action: utter_name_correction_marksheet_gu
+- rule: Paid fees in wrong category in Hindi
+  steps:
+  - intent: paid_fees_in_wrong_category_hi
+  - action: utter_paid_fees_in_wrong_category_hi
+- rule: Paid fees in wrong category in Gujarati
+  steps:
+  - intent: paid_fees_in_wrong_category_gu
+  - action: utter_paid_fees_in_wrong_category_gu
+- rule: Paid less fees than mentioned in Hindi
+  steps:
+  - intent: paid_less_fees_than_mentioned_hi
+  - action: utter_paid_less_fees_than_mentioned_hi
+- rule: Paid less fees than mentioned in Gujarati
+  steps:
+  - intent: paid_less_fees_than_mentioned_gu
+  - action: utter_paid_less_fees_than_mentioned_gu
+- rule: Pay fee online process in Hindi
+  steps:
+  - intent: pay_fee_online_process_hi
+  - action: utter_pay_fee_online_process_hi
+- rule: Pay fee online process in Gujarati
+  steps:
+  - intent: pay_fee_online_process_gu
+  - action: utter_pay_fee_online_process_gu
+- rule: Refund Fees in Hindi
+  steps:
+  - intent: refund_fees_hi
+  - action: utter_refund_fees_hi
+- rule: Refund Fees in Gujarati
+  steps:
+  - intent: refund_fees_gu
+  - action: utter_refund_fees_gu
+- rule: Start Greeting in English
+  steps:
+  - intent: greeting_hello_en
+  - action: utter_greeting_hello_en
+- rule: Start Greeting in Hindi
+  steps:
+  - intent: greeting_hello_hi
+  - action: utter_greeting_hello_hi
+- rule: Start Greeting in Gujarati
+  steps:
+  - intent: greeting_hello_gu
+  - action: utter_greeting_hello_gu
+- rule: End Greeting in English
+  steps:
+  - intent: greeting_bye_en
+  - action: utter_greeting_bye_en
+- rule: End Greeting in Hindi
+  steps:
+  - intent: greeting_bye_hi
+  - action: utter_greeting_bye_hi
+- rule: End Greeting in Gujarati
+  steps:
+  - intent: greeting_bye_gu
+  - action: utter_greeting_bye_gu
+- rule: Bot Related Question in English
+  steps:
+  - intent: bot_related_question_en
+  - action: utter_bot_related_question_en
+- rule: Bot Developers in English
+  steps:
+  - intent: bot_developers_en
+  - action: utter_bot_developers_en
+- rule: Bot Related Question in Hindi
+  steps:
+  - intent: bot_related_question_hi
+  - action: utter_bot_related_question_hi
+- rule: Bot Related Question in Gujarati
+  steps:
+  - intent: bot_related_question_gu
+  - action: utter_bot_related_question_gu
+- rule: Bot Developers in Hindi
+  steps:
+  - intent: bot_developers_hi
+  - action: utter_bot_developers_hi
+- rule: Bot Developers in Gujarati
+  steps:
+  - intent: bot_developers_gu
+  - action: utter_bot_developers_gu
+- rule: Name of Principal in English
+  steps:
+  - intent: name_of_principal_en
+  - action: utter_name_of_principal_en
+- rule: Name of Principal in Hindi
+  steps:
+  - intent: name_of_principal_hi
+  - action: utter_name_of_principal_hi
+- rule: Name of Principal in Gujarati
+  steps:
+  - intent: name_of_principal_gu
+  - action: utter_name_of_principal_gu
+- rule: Total branches in English
+  steps:
+  - intent: total_branches_en
+  - action: utter_total_branches_en
+- rule: Total branches in Hindi
+  steps:
+  - intent: total_branches_hi
+  - action: utter_total_branches_hi
+- rule: Total branches in Gujarati
+  steps:
+  - intent: total_branches_gu
+  - action: utter_total_branches_gu
+- rule: List of Central Facilities in English
+  steps:
+  - intent: list_of_central_facilities_en
+  - action: utter_list_of_central_facilities_en
+- rule: List of Central Facilities in Hindi
+  steps:
+  - intent: list_of_central_facilities_hi
+  - action: utter_list_of_central_facilities_hi
+- rule: List of Central Facilities in Gujarati
+  steps:
+  - intent: list_of_central_facilities_gu
+  - action: utter_list_of_central_facilities_gu
+- rule: Faculty Contact for Scholarship Information in Gujarati
+  steps:
+  - intent: faculty_contact_for_scholarship_information_gu
+  - action: utter_faculty_contact_for_scholarship_information_gu
+- rule: Faculty Contact for Scholarship Information in Hindi
+  steps:
+  - intent: faculty_contact_for_scholarship_information_hi
+  - action: utter_faculty_contact_for_scholarship_information_hi
+- rule: Faculty Contact for Scholarship Information in English
+  steps:
+  - intent: faculty_contact_for_scholarship_information_en
+  - action: utter_faculty_contact_for_scholarship_information_en
+- rule: Medical Facilities in English
+  steps:
+  - intent: medical_facilities_en
+  - action: utter_medical_facilities_en
+- rule: Medical Facilities in Hindi
+  steps:
+  - intent: medical_facilities_hi
+  - action: utter_medical_facilities_hi
+- rule: Medical Facilities in Gujarati
+  steps:
+  - intent: medical_facilities_gu
+  - action: utter_medical_facilities_gu
+- rule: List of Faculty in Chemical Department in English
+  steps:
+  - intent: list_of_faculty_in_chemical_department_en
+  - action: utter_list_of_faculty_in_chemical_department_en
+- rule: List of Faculty in Chemical Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_chemical_department_hi
+  - action: utter_list_of_faculty_in_chemical_department_hi
+- rule: List of Faculty in Chemical Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_chemical_department_gu
+  - action: utter_list_of_faculty_in_chemical_department_gu
+- rule: List of Faculty in Civil Department in English
+  steps:
+  - intent: list_of_faculty_in_civil_department_en
+  - action: utter_list_of_faculty_in_civil_department_en
+- rule: List of Faculty in Civil Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_civil_department_hi
+  - action: utter_list_of_faculty_in_civil_department_hi
+- rule: List of Faculty in Civil Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_civil_department_gu
+  - action: utter_list_of_faculty_in_civil_department_gu
+- rule: List of Faculty in Computer Department in English
+  steps:
+  - intent: list_of_faculty_in_computer_department_en
+  - action: utter_list_of_faculty_in_computer_department_en
+- rule: List of Faculty in Computer Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_computer_department_hi
+  - action: utter_list_of_faculty_in_computer_department_hi
+- rule: List of Faculty in Computer Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_computer_department_gu
+  - action: utter_list_of_faculty_in_computer_department_gu
+- rule: List of Faculty in Electrical Department in English
+  steps:
+  - intent: list_of_faculty_in_electrical_department_en
+  - action: utter_list_of_faculty_in_electrical_department_en
+- rule: List of Faculty in Electrical Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_electrical_department_hi
+  - action: utter_list_of_faculty_in_electrical_department_hi
+- rule: List of Faculty in Electrical Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_electrical_department_gu
+  - action: utter_list_of_faculty_in_electrical_department_gu
+- rule: List of Faculty in EC Department in English
+  steps:
+  - intent: list_of_faculty_in_electronics_and_communication_department_en
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_en
+- rule: List of Faculty in EC Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_electronics_and_communication_department_hi
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_hi
+- rule: List of Faculty in EC Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_electronics_and_communication_department_gu
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_gu
+- rule: List of Faculty in IT Department in English
+  steps:
+  - intent: list_of_faculty_in_information_technology_department_en
+  - action: utter_list_of_faculty_in_information_technology_department_en
+- rule: List of Faculty in IT Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_information_technology_department_hi
+  - action: utter_list_of_faculty_in_information_technology_department_hi
+- rule: List of Faculty in IT Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_information_technology_department_gu
+  - action: utter_list_of_faculty_in_information_technology_department_gu
+- rule: List of Faculty in IC Department in English
+  steps:
+  - intent: list_of_faculty_in_instrumentation_and_control_department_en
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_en
+- rule: List of Faculty in IC Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_instrumentation_and_control_department_hi
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_hi
+- rule: List of Faculty in IC Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_instrumentation_and_control_department_gu
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_gu
+- rule: List of Faculty in Mechanical Department in English
+  steps:
+  - intent: list_of_faculty_in_mechanical_engineering_department_en
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_en
+- rule: List of Faculty in Mechanical Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_mechanical_engineering_department_hi
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_hi
+- rule: List of Faculty in Mechanical Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_mechanical_engineering_department_gu
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_gu
+- rule: List of Faculty in PE Department in English
+  steps:
+  - intent: list_of_faculty_in_power_electronics_department_en
+  - action: utter_list_of_faculty_in_power_electronics_department_en
+- rule: List of Faculty in PE Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_power_electronics_department_hi
+  - action: utter_list_of_faculty_in_power_electronics_department_hi
+- rule: List of Faculty in PE Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_power_electronics_department_gu
+  - action: utter_list_of_faculty_in_power_electronics_department_gu
+- rule: List of Faculty in Applied Mechanics Department in English
+  steps:
+  - intent: list_of_faculty_in_applied_mechanics_department_en
+  - action: utter_list_of_faculty_in_applied_mechanics_department_en
+- rule: List of Faculty in Applied Mechanics Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_applied_mechanics_department_hi
+  - action: utter_list_of_faculty_in_applied_mechanics_department_hi
+- rule: List of Faculty in Applied Mechanics Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_applied_mechanics_department_gu
+  - action: utter_list_of_faculty_in_applied_mechanics_department_gu
+- rule: List of Faculty in Science and Humanities Department in English
+  steps:
+  - intent: list_of_faculty_in_science_and_humanities_department_en
+  - action: utter_list_of_faculty_in_science_and_humanities_department_en
+- rule: List of Faculty in Science and Humanities Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_science_and_humanities_department_hi
+  - action: utter_list_of_faculty_in_science_and_humanities_department_hi
+- rule: List of Branches in English
+  steps:
+  - intent: list_of_branches_en
+  - action: utter_list_of_branches_en
+- rule: List of Branches in Hindi
+  steps:
+  - intent: list_of_branches_hi
+  - action: utter_list_of_branches_hi
+- rule: List of Branches in Gujarati
+  steps:
+  - intent: list_of_branches_gu
+  - action: utter_list_of_branches_gu
+- rule: Hostel Facilities in English
+  steps:
+  - intent: hostel_facility_in_college_en
+  - action: utter_hostel_facility_in_college_en
+- rule: Hostel Facilities in Hindi
+  steps:
+  - intent: hostel_facility_in_college_hi
+  - action: utter_hostel_facility_in_college_hi
+- rule: Hostel Facilities in Gujarati
+  steps:
+  - intent: hostel_facility_in_college_gu
+  - action: utter_hostel_facility_in_college_gu
+- rule: Transportation Facilities in English
+  steps:
+  - intent: transportation_facility_in_college_en
+  - action: utter_transportation_facility_in_college_en
+- rule: Transportation Facilities in Hindi
+  steps:
+  - intent: transportation_facility_in_college_hi
+  - action: utter_transportation_facility_in_college_hi
+- rule: Transportation Facilities in Gujarati
+  steps:
+  - intent: transportation_facility_in_college_gu
+  - action: utter_transportation_facility_in_college_gu
+- rule: Mess Facilities in English
+  steps:
+  - intent: mess_facilities_in_college_en
+  - action: utter_mess_facilities_in_college_en
+- rule: Mess Facilities in Hindi
+  steps:
+  - intent: mess_facilities_in_college_hi
+  - action: utter_mess_facilities_in_college_hi
+- rule: Mess Facilities in Gujarati
+  steps:
+  - intent: mess_facilities_in_college_gu
+  - action: utter_mess_facilities_in_college_gu
+- rule: Library Facilities in English
+  steps:
+  - intent: library_facility_in_college_en
+  - action: utter_library_facility_in_college_en
+- rule: Library Facilities in Hindi
+  steps:
+  - intent: library_facility_in_college_hi
+  - action: utter_library_facility_in_college_hi
+- rule: Library Facilities in Gujarati
+  steps:
+  - intent: library_facility_in_college_gu
+  - action: utter_library_facility_in_college_gu
+- rule: Sports Facilities in English
+  steps:
+  - intent: sport_facility_in_college_en
+  - action: utter_sport_facility_in_college_en
+- rule: Sports Facilities in Hindi
+  steps:
+  - intent: sport_facility_in_college_hi
+  - action: utter_sport_facility_in_college_hi
+- rule: Sports Facilities in Gujarati
+  steps:
+  - intent: sport_facility_in_college_gu
+  - action: utter_sport_facility_in_college_gu
+- rule: List of Faculty in Science and Humanities Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_science_and_humanities_department_gu
+  - action: utter_list_of_faculty_in_science_and_humanities_department_gu
+- rule: out-of-scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope

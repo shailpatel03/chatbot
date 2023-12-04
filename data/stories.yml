@@ -1,0 +1,22 @@
+version: "2.0"
+stories:
+- story: Story for paid fees less than mentioned in English
+  steps:
+  - intent: paid_less_fees_than_mentioned_en
+  - action: utter_paid_less_fees_than_mentioned_en
+- story: Story for admission cancel in English
+  steps:
+  - intent: admission_cancel_en
+  - action: utter_admission_cancel_en
+- story: Story for admission cancel in Gujarati
+  steps:
+  - intent: admission_cancel_gu
+  - action: utter_admission_cancel_gu
+- story: Story for admission cancel in Hindi
+  steps:
+  - intent: admission_cancel_hi
+  - action: utter_admission_cancel_hi
+- story: Story list of faculty in science and humanities department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_science_and_humanities_department_gu
+  - action: utter_list_of_faculty_in_science_and_humanities_department_gu

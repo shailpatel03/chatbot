@@ -1,0 +1,2422 @@
+version: "2.0"
+nlu:
+- intent: name_correction_marksheet_en
+  examples: |
+    - How do I get my name corrected in the mark sheet?
+    - What is the procedure to get my name corrected in the mark sheet?
+    - How to correct my name in the mark sheet?
+    - How to change name in the mark sheet?
+    - How can I correct my name in marksheet?
+    - The marksheet contains wrong name of me, what to do?
+    - My name in marksheet was written wrong, now what to do?
+    - I want to change my name in marksheet.
+    - I want to change my name in marksheet how to do that?
+    - I want to change my name in marksheet, what is procedure for that?
+    - Can you please tell me how to change my name in marksheet?
+    - can u please tell me how to correct my name in marksheet?
+    - can u plz tell me how to correct my name in marksheet?
+    - I want name correction in marksheet.
+    - I want to correct my name in marksheet.
+    - I want to correct my name in marksheet how to do that?
+    - I want name correction marksheet, what is procedure of that?
+    - can you please tell me procedure of name correction in marksheet?
+    - can u tell me procedure of name correction in marksheet?
+    - can u plz tell me procedure of name correction in marksheet?
+    - How can I change my name in marksheet?
+    - My name is wrong in markshhet how to change that?
+    - My name is wrong in marksheet how can I chnage that?
+    - My name is written wrong in marksheet now what should I do?
+    - What is procedure of name correction in marksheet?
+    - What is the procedure to change my name in marksheet?
+    - Tell me the procedure of name correction in marksheet.
+    - Tell me the procedure of name change in marksheet.
+- intent: paid_fees_in_wrong_category_en
+  examples: |
+    - I have paid fees in the wrong category. What to do?
+    - I have paid fees in wrong category then how to refund the fees?
+    - I paid my fees in different branch, what to do?
+    - at time of paying fees, I paid in different branch, what should I do?
+    - I was paying fees for GTU exam, but paid in VGEC term fee category, now what to do?
+    - I had to pay in non-tfws category but paid my fees in tfws category, what to do?
+    - I paid in tfws category instead of non-tfws category, now what to do?
+    - I paid in general account instead of term fees category, what to do?
+    - I have paid fees in rong category now what to do?
+    - while paying the fees of the college I paid in wrong category what can I do now?
+    - while paying fees of vgec college I paid fees in wrong category what to do now?
+    - while paying the fees of the collage I paid in wrong category what can I do now?
+    - while paying fees of vgec collage I paid fees in wrong category what to do now?
+    - Instead of paying fees in term fees category,I paid in general category now what to do?
+    - Instead of paying fees in term fees category,I paid in wrong category now what to do?
+    - Instead of paying fees in term fees category,I paid in rong category now what to do?
+    - Instead of paying fees in non-tfws category ,I paid in tfws category now what to do?
+    - Instead of paying fees in non-tfws category,I paid in general category now what to do?
+    - I had done mistake in paying fees in wrong category can I change that now?
+    - I had done misatke of paying fees in wrong category can I now cahnge that?
+    - Is it possible to change if I had paid fees in wrong category?
+    - Can it be possible to change if paid fees in wrong category?
+    - I was paying fees for term fee category, but paid in GTU exam, now what to do?
+    - while paying the hostel fees I paid in wrong category is it possible to change?
+    - While paying hostel fees of VGEC i paid in wrong category can I change now?
+    - I have paid fees in the wrong category, now What to do?
+    - I have paid fees in the wrong category, now What can i do?
+    - I have paid fees in wrong category then how to get refund of fees?
+    - I paid my fees in different branch, what can i go now?
+    - at time of paying fees, I paid in different branch, what could I do?
+    - I was paying fees for GTU exam, but paid in VGEC term fee category, now what should i do?
+    - I was paying fees for GTU exam, but paid in VGEC term fee category, now what can i do for that?
+    - I had to pay in non-tfws category but paid my fees in tfws category, now what to do?
+    - I had to pay in non-tfws category but paid my fees in tfws category, now what can i do?
+    - I paid in tfws category instead of non-tfws category, now what should i do?
+    - I paid in general account instead of term fees category, what can I do for that?
+- intent: refund_fees_en
+  examples: |
+    - How do I process the refund of fees?
+    - I have paid fees in wrong section then how to refund those fees?
+    - My money for fees were deducted twice, how to get refund?
+    - I paid fees twice by mistake, how to get refund?
+    - My bank statement says that my fees were deducted twice, how to get refund for that?
+    - My account balance says that the amount for fees were debited twice, now what to do?
+    - How do I get the refund of fees?
+    - By mistake I have paid fees in wrong section then how to get refund?
+    - If I have paid fees in wrong category then how to get refund?
+    - If I have paid fees in wrong section then how to get refund?
+    - I want refund of my fees as I have paid in wrong category?
+    - I have paid my fees in wrong category, now i want refund
+    - I have paid my fees in wrong section now i want refund , what is process of that?
+    - What is the process if by mistake student paid fees in wrong category?
+    - what is the process if by mistake student paid fees in wrong section?
+    - what is the procedure if by mistake student has paid fees in wrong category?
+    - what is the procedure if by mistake student has paid fees in wrong section?
+    - How to get refund of fees if student has paid fees in wrong sectoion?
+    - How to get refund of fees if student has paid fees in wrong category?
+    - I want refund as my money was deducted twice?
+    - To get refund of fees what is the process ?
+    - to get refund of fees what is the procedure?
+- intent: paid_less_fees_than_mentioned_en
+  examples: |
+    - I have paid lesser fees than mentioned, what to do now?
+    - I paid less fees, what to do now?
+    - I paid less fees, what is the procedure to pay the remaining fees?
+    - For this sem, I paid less fee, now what to do?
+    - For GTU exam, I paid less fee, what to do now?
+    - I paid less fees, what to do?
+- intent: entered_incorrect_information_while_paying_fees_en
+  examples: |
+    - I have entered incorrect enrollment no. while paying the fees, what to do now?
+    - I have entered incorrect branch while paying the fees, what to do now?
+    - I had written wrong enrollment no while paying fees, now what to do?
+    - I had written wrong phone no while paying fees, what should I do now?
+    - I had written wrong email id while paying fees, what to do now?
+    - I had selected wrong branch, what to do?
+    - Entered incorrect branch while paying fees what to do?
+    - by mistake entered wrong branch paying fees what can i do?
+    - by mistake entered wrong enrollment no. paying fees what can i do?
+    - by mistake entered wrong phone no paying fees what can i do?
+    - by mistake entered wrong email id paying fees what can i do?
+    - by mistake selected wrong branch paying fees what can i do?
+    - I had done mistake in entering branch name how can I change now?
+    - I had done mistake in entering enrollment no how can I change now?
+    - I had done mistake in entering phone no how can I change now?
+    - I had done mistake in entering email id how can I change now?
+    - I had done mistake in entering some details while paying fees, how can I change now?
+    - I had done mistake in selecting branch name how can I change now?
+    - I had done mistake in selecting  enrollment no how can I change now?
+    - I had done mistake in selecting phone no how can I change now?
+    - I had done mistake in selecting email id how can I change now?
+    - I had done mistake in selecting some details while paying fees, how can I change now?
+    - while paying fees I had entered incorrect information what to do now?
+    - while paying the college fees I have entered incorrect details what to do now?
+    - what to do if there is any mistake while paying fees?
+    - what to do if i had entered incorrect details while paying fees?
+    - while paying fees I had entered incorrect details what to do?
+- intent: bonafide_apply_en
+  examples: |
+    - How do I apply for a bonafide?
+    - I want to apply for bonafide certificate, how can I do that?
+    - I need to have bonafide certificate, how to apply for the same?
+    - For getting scholarship, I need bonafide, how to get it?
+    - I have to apply for bonafide certificate, how can I do that?
+    - How to apply for a bonafide certificate?
+    - I want to apply for bonafide,how to apply for that?
+    - How to apply for bonafide?
+    - I need bonafide certificate , how do I apply for it?
+    - I need bonafide certificate, how do I apply for it?
+    - I need bonafide,how can I apply?
+    - I want bonafide certificate for getting scholarship, how do I apply for that?
+    - I want bonafide certificate for getting scholarship, how to apply for that?
+    - I want bonafide certificate for getting scholarship, how can I  apply for that?
+    - I want bonafide certificate for getting scholarship, what is the process to  apply for that?
+    - what is the process of getting bonafide certificate?
+    - what is the procedure of getting bonafide certificate?
+    - what is the exact process of doing application for bonafide certificate?
+    - process of application for bonafide certificate.
+    - please explain of getting bonafide certificate from college.
+    - I want bonafide certificate how to do?
+    - I want bonafide how to get that?
+    - I want certificate of bonafide how to get that?
+    - I want certificate of bonafide how to apply for the same?
+- intent: pay_fee_online_process_en
+  examples: |
+    - How to pay the fees online?
+    - I need to pay fees online, how can I do that?
+    - How to pay online fees?
+    - What is the process for paying fees online?
+    - What is the procedure for the online payment of fees?
+    - How can I pay my fees online?
+    - How to pay fees online?
+    - I want to pay my fee online how to do that?
+    - I want to pay my fees online what is the process?
+    - I want to pay my fees online then what is the procedure?
+    - If i want to pay my fees online then how can i do that?
+    - If i want to pay my fees online then whcih steps i need to follow?
+    - what are steps to pay fees online?
+    - what is the process to pay fees online?
+    - what is procedure to pay fees online?
+    - whrere I can pay my fees online?
+    - how to do payment of fees online?
+    - how to perform payment of fees online?
+    - is there any thing required to pay fees online?
+    - any requirement to pay fees online?
+    - tell me how to pay fees online?
+    - tell me how to process for the online fees payment?
+    - can you me what is exact process to pay my fees online?
+- intent: get_duplicate_marksheet_process_en
+  examples: |
+    - What to do for the duplicate mark sheet?
+    - How to get duplicate marksheet?
+    - How to get duplicate mark sheet?
+    - I want duplicate mark sheet, what is the process for that?
+- intent: admission_cancel_en
+  examples: |
+    - Cancellation of admission
+    - I want to cancel my admission, how should I do the same?
+    - I got admission in another college in reshuffling round, how to cancel my admission?
+    - I got admission in another college in online round, how to cancel my admission?
+    - I got admission in another college in offline round, how to cancel my admission?
+    - I want to cancel my admission from vgec, what is the procedure for that?
+    - I want to cancel my admission in vgec, what is the process?
+- intent: detention_after_process_en
+  examples: |
+    - The process for resuming the study after the detention period is over
+    - What is the process after detention is over?
+    - My detention is over. Now, what to do?
+    - My detention is over, now what to do?
+    - How to resume studying in college after detention is over?
+    - My detention is completed.what to do?
+    - My detention is done now what to do?
+    - I want to resume my study,my detention is over
+    - How to resume my studies as my detention is over?
+    - How to resume studies when detention period over?
+    - Please explain the process after detention is over.
+    - Explain the process after detention period is over.
+    - What is the process of resuming the studies when detention period is over?
+    - what is the procedure of resuming studies after detention period completion?
+    - what is the procedure after completion of detention period?
+    - How to resume studies after detention period?
+    - Resuming studies process after detention period?
+    - Resuming studies procedure after detention period?
+    - My detention is completed.Now what to do?
+    - My detention is completed, now what to do?
+    - what is the way to resume studies after detention period?
+    - what is the way after detention period?
+    - what is the way to resume studies in college after detention period?
+    - what is the process of resuming studies in college after detention period?
+    - explain the process of resuming studies in college after detention period.
+- intent: get_scholarship_en
+  examples: |
+    - How to get scholarship?
+    - I want a scholarship, how to get it?
+    - How can I get my scholarship?
+    - I want details regarding different scholarships available, from where can I get information?
+    - I want details regarding different scholarships available, from where can I get information regarding scholarships?
+    - How can i get scholarship?
+    - I want a scholarship, how to get that?
+    - To get a scholarship how to apply for it?
+    - To get a scholarship how to apply for that?
+    - I want information regarding scholarship.
+    - can you tell me regarding different scholarship available in college?
+    - can u tell me regarding different scholarship available in college?
+    - can you provide me the details of different scholarship?
+    - can u provide me the details of different scholarship?
+    - whrere can i get information regarding scholarship?
+    - I want to know about scholarship
+    - i want to know about different scholarships available in college
+    - give me details of scholarship
+    - give me the information refarding scholarship
+    - can you give me the details of scholarship
+    - can you give me details how to apply for scholarship?
+    - can you please tell me how to apply for scholarship?
+- intent: get_scholarship_gu
+  examples: |
+    - Scholarship kai rite male?
+    - Scholarship mate kai rite apply karu?
+    - Mare scholarship joie chhe, to kai rite malse?
+    - Mare schoalrhsip joie chhe, to kai rite malse?
+    - Scholarship melavani rit su?
+    - scholarship joie chhe, to kai rite male?
+    - Scholarship kai rite mali sake?
+    - Scholarship mate kai rite apply karvu padse?
+    - Mare scholarship joie 6, to kai rite malse?
+    - Mare schoalrhsip joie 6, to kai rite malse?
+    - Scholarship melavani rit shu?
+    - Scholarship melavani process shu?
+    - Scholarship melavani procedure shu?
+    - scholarship joie 6, to kai rite male?
+    - mare scholarship ni mahiti joie che
+    - mare scholarship ni mahiti joie chhe
+    - mare scholarship ni mahiti joie 6
+    - Mare scholarship vishe janvu hatu tame mane janavi sakso?
+    - mare scholarship ni jankari joie che
+    - mare scholarship ni jankari joie 6
+    - mare scholarship ni jankari joie chhe
+- intent: get_scholarship_hi
+  examples: |
+    - Scholarship kese milti he?
+    - Muje scholarship chahie to kese apply karna hain?
+    - Muje scholarship chaie, kese mil sakti he?
+    - muje scholarship chaaie, to kese mil sakti he?
+    - Scholarship kese mil sakti he muje?
+    - Muje scholarship chahie to kese apply kar sakta hu?
+    - Muje scholarship chahie to kese apply kar sakti hu?
+    - Muje scholarship chaie, to vo kese mil sakti he?
+    - muje scholarship chaaie, uske liye muje kya process karni padegi?
+    - muje scholarship chaaie, uske liye kya process hai?
+    - muje scholarship chaaie, uske liye kya procedure hai?
+    - muje scholarship chaaie, uske liye muje kya procedure karni padegi?
+    - kya aap scholarship kese mil sakti hai vo bata sakte hai?
+    - Muje scholarship ke bare me jankari chahiye
+    - Muje scholarship ke bare me jankari chaaie
+    - Muje scholarship ki mahiti chahiye
+    - Muje scholarship ki mahiti chaaie
+    - Muje scholarship ke bare me janna hai kya aap bata sakte hai?
+    - muje scholarship k bare me janna hai kya aap bata sakte hai?
+- intent: pay_fee_online_process_hi
+  examples: |
+    - Muje online fees pay karni hai to kaise kar sakte hai?
+    - Muje fees online bharni hai to kaise kar sakte hai?
+    - Online Fees pay karne ki process kya hai?
+    - Fees payment online kaise karni hai?
+    - Muje online fees pay karni hai toh uski process kya hai?
+    - online fees kaise pay karte hai?
+    - online fees payment kaise bharni hoti hai?
+    - Muje online fees pay karni hai to me kaise kar sakta hu?
+    - Muje online fees pay karni hai to me kaise kar sakti hu?
+    - Online Fees pay karne ki process bata sakte hai?
+    - Fees payment online kaise karni hogi?
+    - Muje online fees pay karni hai toh uski process karni padti hai?
+    - online fees kaise pay kar sakta hu me?
+    - online fees kaise pay kar sakti hu me?
+    - online fees payment karni hai to kese kar sakte hai?
+    - Agar muje fees online pay karni hai to kese kar sakte hai?
+    - kya aap bata sakte hai online fees pay krne ki process kya hai?
+    - kya aap bata sakte hai online fees pay karne ki procedure kya hai?
+    - kya aap bata sakte hai online fees kese pay kar sakte hai?
+    - Muje online fees kese pay karte hai vo janna hai
+    - muje online fees pay karni ki process kya hai uski jankari chahiye
+    - muje online fees pay karni ki procedure kya hai uski mahiti chahiye
+- intent: pay_fee_online_process_gu
+  examples: |
+    - Mare online fees bharvi che kai rite karvani?
+    - online fees nu payment kai rite karvanu?
+    - online fees pay karvani process shu che?
+    - online payment karvu hoy mare toh kai rite kari sakay?
+    - mare fees online bharvi che to e kai rite karvanu?
+    - mare fees bharvani che to online kai rite bhari sakay?
+    - Mare online fees bharvi che kai rite kari saku?
+    - online fees nu payment kai rite thai sake?
+    - online fees pay karvani process shu 6?
+    - online payment karvu hoy mare toh kai rite kari saku hu?
+    - mare fees online bharvi 6 to e kai rite karvanu?
+    - mare fees bharvani 6 to online kai rite bhari sakay?
+    - jo mare fees online pay karvi hoy to kai rite kari saku?
+    - online fees kai rite pay kari sakay teni mahiti joie che
+    - online fees kai rite pay kari sakay teni mahiti joie 6
+    - online fees kai rite pay kari sakay teni jankari joie che
+    - online fees kai rite pay kari sakay teni jankari joie 6
+    - tame mane janavi sakso online fees kai rite pay kari sakay?
+    - Mare online fees pay karvani process janvi 6
+    - mare online fees pay karvani procees janvi che
+    - online fees pay karvani procedure su che?
+    - online fees pay karvani procedure su 6?
+    - online fees pay karvani procedure shu che?
+    - online fees pay karvani procedure shu 6?
+- intent: get_duplicate_marksheet_process_hi
+  examples: |
+    - muje duplicate marksheet karvani che to uski process kya hai?
+    - muje meri marksheet ki duplicate copy chahiye to kya karna hai?
+    - muje meri marksheet ki duplicate karani hai to kya karna hoga?
+    - marksheet ki dusri copy karane ki kya process hai?
+    - duplicate marksheet issue karani ki kya karna hai?
+    - meri original marksheet ghum ho gai hai duplicate k liye kya process hai?
+    - muje duplicate marksheet k liye kya karna hoga?
+- intent: get_duplicate_marksheet_process_gu
+  examples: |
+    - mare duplicate marksheet karvi che to eni process shu che?
+    - mare mari marksheet ni duplicate karavi che to ena mate shu karvanu?
+    - marksheet ni biji copy ni process shu che?
+    - marksheet ni duplicate kai rite karvani?
+    - mare marksheet khovai gai che toh duplicate copy kai rite karvani?
+    - duplicate marksheet ni procedure shu che?
+    - mare marksheet ni duplicate karavi che to eni mate shu karvanu?
+- intent: admission_cancel_hi
+  examples: |
+    - muje admission cancel karna hai to uski process kya hai?
+    - muje vishwakarma me admission cancel karana hai to uske liye kya karna hoga?
+    - muje admission cancel karana hai vgec mai se toh uske liye kya karna hai?
+    - admission cancel ki procedure kya hai?
+    - admission kaise cancel karva sakte hai?
+    - muje admission cancel karana hai to vo kaise kar sakte hai?
+    - maine vgec me admission liya tha ab muje cancel karna hai toh kaise karu?
+    - muje admission cancel karna hai toh me kar sakta hu?
+    - Mujhe dusri college me admission mil gya he to ab mujhe vgec me se admission cancel karavana he, to ab me kya karu?
+- intent: admission_cancel_gu
+  examples: |
+    - mare admission cancel karvu che toh kai rite karvanu?
+    - mare vgec ma admission cancel karvu hoy to en mate shu karvanu?
+    - mane vgec ma admission malyu che pn mare cancel karvu che toh shu karu?
+    - college ma admission cancel karvani process shu che?
+    - mare admission nu cancellation mate shu karvanu?
+    - mane maru admission kadhva mate shu karvanu?
+    - mane vishwakarma ma admission lidhu che toh ene cancel karvu che toh thase?
+    - agar mare admission cancel karvu hoy to kari shaku?
+    - mare maru admission vgec ma thi cancel karavi nakhvu 6e to hu kai rite kari saku?
+    - Mare maru admission cancel karavu 6e to mare su karvu joie?
+- intent: detention_after_process_hi
+  examples: |
+    - mera detention period khatam ho chuka hai ab padai firse start karne ki process kya hai?
+    - mera detention pura ho chuka hai study resume karne ki kya procedure hai?
+    - muje detention ka time khtam ho gaya hai ab resume karne ki kya process hai?
+    - mera detain ka period khatam ho chuka hai ab resume kaise karneka?
+    - meri detention abhi khatam ho gayi he to ab me kya karu?
+    - meri detention khatam ho gya he, to ab me kya karu?
+    - mera detention period khatam ho chuka hai aage ki process kya hai?
+    - mera detention period khatam ho chuka hai aage ki procedure  kya hai?
+    - detention khatam hone k baad studies resume kese kare?
+    - detention period khtam ho gaya hai ab aage kya process hai?
+    - detention period khtam ho gaya hai ab aage kya procedure hai?
+    - studies kese resume karne ka jab detention period khatam ho jaye?
+    - muje meri college ki studies resume karni hai after detention period?
+    - muje meri college ki studies resume karni hai after detention period kaise karne ki?
+    - studies resume kaise karne ki detention period khatam hone k baad?
+    - studies resume karne ki detention period over hone k baad ki process kya hai?
+    - studies resume karne ki detention period over hone k baad ki procedure kya hai?
+    - mera detention period over ho chuka hai resume kaise karne ka?
+    - mera detention period over ho chuka hai studies resume kaise karne ka?
+    - muje detention period over ho cuka hai resume ki process kya hai?
+    - muje detention period over k baad studies resume ki kya procedure hai?
+    - meri detention period khatam ho chuka hai studies resume kese karne ka?
+    - mera detention ka time khatam ho chuka hai studies resume karne ki kya process hai?
+    - mera detention ka time khatam ho chuka hai studies resume karne ki kya procedure hai?
+- intent: name_correction_marksheet_hi
+  examples: |
+    - Muje mera name sahi karvana hai marksheet me to kaise kar sakte hai?
+    - Muje mera name correct karvana hai marksheet me to kaise kar sakte hai?
+    - Name correct karvana hai marksheet me to kya process hai?
+    - Name coreect karvane ki process kya hai?
+    - Marksheet me name ki spelling me mistake hai to kese correct karva sakte hai?
+    - Marksheet me mere name ki spelling wrong hai to use thik kese karva ki process kya hai?
+    - Agar name ki spelling marksheet me galat hai to use kese thik karaya ja sakta hai?
+    - mera name galat likha he marksheet me, to ab me kya kar sakta hu?
+    - Mujhe marksheet me name change karvana he to kese kar sakta hu?
+    - meri marksheet me name change karna he, to kese kar sakte he?
+    - Muze name change karvana hai marksheet me to kese kar sakte hai?
+    - Muze name change karvana hain marksheet me to kaise kar sakte hai?
+    - Muze mera name sahi karavna hai marksheet me to kese kar sakte hai?
+    - muze mera name sahi karvana hain marksheet me to kya process hai?
+    - muze name change karvana hai markshhet me to kya procedure hain?
+    - Muze name change karvana hain marksheet me to kya procedure karni padegi?
+    - Name change karvane ki process kya hai?
+    - Name ka spelling galat hai marksheet me to kese thik karva sakte hai?
+    - name ka spelling galat hai marksheet me to kese change karva sakte hain?
+    - name ki spelling galat hai marksheet me to kese correct karva sakte hain?
+    - name ki spelling galat hain marksheet me to kese sahi karva sakte hai?
+    - Name change karvane ki process batao.
+    - name correct karvane ki procedure batao.
+    - name kese sahi karva sakte hain marksheet me?
+    - Kya aap muje bata sakte hai name ki spelling galat ho marksheet me to kese change karva sakte hai?
+    - kya ap muze name change karvane ki process k bare me bata sakte hai?
+    - kya aap muze name correction ki process k bare me bata sakte hai?
+    - kya ap muje name correction mi procedure k bare me bata sakte hai?
+    - kya me name correction ki process k bare me jan sakta hun?
+    - Muje marksheet me name change karvana hai to uski process k bare me jan sakta hu?
+    - muje marksheet me name correct karvana hai to uski process k bare me jan sakta hu?
+    - Muje marksheet me name change karvana hai to uski process k bare me jan sakti hu?
+    - muje marksheet me name correct karvana hai to uski process k bare me jan sakti hu?
+    - Mujhe marksheet me name change karna he to kese ho?
+- intent: name_correction_marksheet_gu
+  examples: |
+    - Mara name no spelling khoto che marksheet ma to ene sudharvani process su che?
+    - Mare name sudharavu che marksheet ma to ene kai rite karavi sakay?
+    - Jo name no spelling khoto hoy marksheet ma to ene kai rite sudhari sakay?
+    - Name no spelling wrong che to kai rite correct karavi sakay?
+    - Name na spelling ma mistake hoy to correct karavani procedure su che?
+    - Marksheet ma name na spelling ma error hoy to name kai rite correct karavi sakay?
+    - Mare name no spelling change karavo  che marksheet ma to kai rite karvai sakay?
+    - Marksheet ma spelling ma bhul hoy to ene sudharvani ni process su che?
+    - Marksheet ma spelling ma bhul hoy to ene correct karavni procedure su che?
+    - maru name khotu lakhelu avyu chhe marksheet to have hu su karu?
+    - mare marksheet ma naam change karavanu 6e because naam khotu lakhelu avyu 6e pelethi, to mare have su karvu joie?
+    - mare mari marksheet ma name badlavvanu chhe to hu su kari saku k jethi maru name badli jaay
+    - maru name khotu avyu 6e marksheet ma to have hu su karu??
+    - Mare marksheet ma naam badalvu chhe to su karvu padse?
+    - Mare marksheet ma naam change karavu chhe, to su karvu padse?
+    - Mare mari marksheet ma naam badalvanu chhe to su karvu padse?
+    - Mare marksheet ma maru naam badalvanu chhe, to su karvanu?
+    - mare name change karavu che marksheet ma to kai rite karavi sakay?
+    - mare name correct karavu che marksheet ma to kai rite karavi sakay?
+    - name change karavu hoy marksheet ma to su process karvi padse?
+    - name change karavu marksheet ma to su procedure karvi padse?
+    - Mane marksheet ma name badlava mate ni jankari aapo.
+    - Mane marksheet ma name change mate ni jankari aapo.
+    - Mane marksheet ma name correct karava mate ni jankari aapo.
+    - Tame mane marksheet ma name change karava mate ni mahiti aapi sakso?
+    - tame mane marksheet ma name badlava mate ni mahiti aapi sakso?
+- intent: paid_fees_in_wrong_category_hi
+  examples: |
+    - Mere se fees galat category me pay ho gai hai to ab me kya karu?
+    - Mene galti se fees wrong category me bhar di hai to kya karu me ab?
+    - Mujse fees galat category me pay ho gai hai to paise vapas kese mil sakte hai?
+    - Mujse by mistake fees wrong category me pay ho gai hai to muje refund ke liye kya process karni padegi?
+    - Agar galti se paise galat category me fill kar di hai to paise wapas kese mil sakte hain?
+    - Agar galati se fees dusri category me pay ho gai hai to refund ke liye kya procedure karni padegi?
+    - Mene fees wrong category me pay kar di hai to refund ke liye kya procedure follow karu?
+    - Fees wrong category me pay ho gai ha to kese paise wapas mil sakte hai?
+    - Wrong category me fees pay kar di ho to wo fees wapas kese le sakte hai?
+    - galati se dusri category me fees bhar di ho to refund kese le sakte hain?
+    - galat section me fees pay ho gai hai to refund kese mil sakta hai?
+    - Wrong section me fees pay kar di hai mene to refund ke kiye kya pocess karni padegi?
+    - Dusre section me fees bhar di hai to refund kese mil sakta hai?
+    - Mene fees dusri category me pay kar di hai to refund ke liye kya procedure follow karu?
+    - mane galti se alag branch me fees bhar di he, to ab me kya kar sakta hu?
+    - Mere se fees galat category me pay ho gai hai to ab me kya kar sakta hu?
+    - Mere se fees galat category me pay ho gai hai to ab me kya kar sakti hu?
+    - Mene galti se fees wrong category me bhar di hai to ab me kya karu?
+    - Mujse fees galat category me pay ho gai hai to muje paise vapas kese mil sakte hai?
+    - Mujse by mistake fees wrong category me pay ho gai hai to muje refund ke liye kya process karni hogi?
+    - Agar galti se paise galat category me fill ho jaye to paise wapas kese mil sakte hain?
+    - Agar galati se fees dusri category me pay ho gaye ho to refund ke liye kya procedure karni padegi?
+    - Mene fees wrong category me pay kar di hai to refund ke liye kya procedure karni padegi?
+    - Fees wrong category me pay ho gai ha to paise wapas kese mil sakte hai?
+    - Wrong category me fees pay kar di ho to wo fees wapas kese mil sakti hai?
+    - galati se dusri category me fees bhar di ho to refund kese mil sakta hain?
+    - galat section me fees pay ho gai hai to refund kese mil sakta hain?
+    - Wrong section me fees pay kar di hai mene to refund ke kiye kya pocess karni hogi?
+    - Dusre section me fees bhar di hai to refund kese le sakte hai?
+- intent: paid_fees_in_wrong_category_gu
+  examples: |
+    - Mara thi fees bhulthi biji category ma pay thai gai che to paisa pacha kai rite lai sakay?
+    - Mara thi fees by mistake wrong category ma pay thai gai che to refund mate ni process su che?
+    - Bhulthi fees wrong category ma pay thai jay to refund leva mate ni procedure su che?
+    - Mara thi fees khoti category ma pay thai gai che to kai rite refund lai sakay?
+    - Fees khoti category ma pay thai jay to refund ni procedure su che?
+    - Fees biji category ma pay thai gai hoy to refund leva ni procdure su che?
+    - Mara thi bulthi fees biji category ma pay thai gai che to fees pachi kai rite lai sakay?
+    - Mara thi bhulthi fees wrong category ma pay thai gai che to refund leva mate ni process su che?
+    - mari 8th sem ni fee bharta samaye me bhulti judi category ma bhari didhi 6e to have?
+    - Mara thi fees bhulthi biji category ma pay thai gai 6 to paisa pacha kai rite lai sakay?
+    - Mara thi fees by mistake wrong category ma pay thai gai che to refund mate ni process su 6?
+    - Bhulthi fees wrong category ma pay thai jay to refund leva mate ni procedure su 6?
+    - Mara thi fees khoti category ma pay thai gai chhe to kai rite refund lai sakay?
+    - Fees khoti category ma pay thai jay to refund ni procedure su 6?
+    - Fees biji category ma pay thai gai hoy to refund leva ni procdure su 6?
+    - Mara thi bulthi fees biji category ma pay thai gai hoy to fees pachi kai rite lai sakay?
+    - Mara thi bhulthi fees wrong category ma pay thai gai hoy to refund leva mate ni process su 6?
+    - mari 8th sem ni fee bharta samaye me bhulti judi category ma bhari didhi chhe to have?
+    - mari 8th sem ni fee bharta samaye me bhulti judi category ma bhari didhi 6 to have?
+    - mari 8th sem ni fee bharta samaye me bhulti judi category ma bhari didhi chhe to hve su karu?
+    - mari 8th sem ni fee bharta samaye me bhulti judi category ma bhari didhi chhe to hve su kari sakay?
+- intent: refund_fees_hi
+  examples: |
+    - Me refund ki process kese kar sakta hu?
+    - Me refund ki process kese kar sakti hu?
+    - Refund lene ke liye kya process hoti hai?
+    - Refund lene ki kya procedure hai?
+    - Agar fees galti se wrong category me pay gai ho to refund ke liye kese apply kar sakte hai?
+    - Fees wrong category me fill ho gai ho to refund lene ki kya procedure hoti hai?
+    - Refund kese le sakte hai?
+    - Refund lene ke liye kya karna padega?
+    - galti se fees dusri category me pay ho gai hai to refund lene ke liye kya karna padega?
+    - Refund lene ke liye kya karna hota hai?
+    - Muje refund chahiye to kya karna padega?
+    - Muje refund chahiye to uski process kese kar sakta hu?
+    - Muje refund chahiye to uski process kese kar sakti hu?
+    - Refund lene ke liye kya process karni padegi?
+    - Refund lene ki kya procedure karni padegi?
+    - Agar fees galti se wrong category me pay gai ho to refund kese mil sakta hai?
+    - Fees wrong category me fill ho gai ho to refund kese mail sakta hai?
+    - Refund k liye kya process hoti hai?
+    - refund lene k liye kya process karni padegi?
+    - refund lene k liye kya procedure karni padegi?
+    - Agar galati fees dusri category me pay ho gai ho to refund kese mil sakta hai?
+    - Muje refund k liye apply karna hai to kese kar sakta hu?
+    - Muje refund k liye apply karna hai to kese kar sakti hu?
+    - Agar paise do bar cut gaye ho to refund kese le sakte hai?
+    - Mere paise do bar cut ho gaye hai to me refund kese le sakta hu?
+    - Mere paise do bar cut ho gaye hai to me refund kese le sakti hu?
+- intent: refund_fees_gu
+  examples: |
+    - mare refund joie che to su process karvi padse?
+    - Mare refund joie che to su procedure follow karvi padse?
+    - Refund leva mate su karvu padse?
+    - Refund mate ni process su che?
+    - Refund mate ni procedure su che?
+    - Fees bhulthi biji category ma pay thai gai che to refund leva mate su process karvi padse?
+    - Mara thi fees by mistake biji category ma pay thai gai che to refund kai rite lai sakay?
+    - Agar fees bhulthi wrong category ma pay thai hoy to refund mate ni process su che?
+    - Fees refund mate ni procedure su che?
+    - Fees refund leva mate ni process su che?
+    - Mari fees 2 vaar cut thai gai 6e bank account mathi, to mane refund kyare malse?
+    - mare refund joie 6 to su process karvi padse?
+    - Refund leva mate ni process janavo
+    - refund leva mate ni procedure janavo
+    - refund kai rite lai sakay?
+    - Mare refund joie 6 to su procedure follow karvi padse?
+    - Refund leva mate su karvu padse mare?
+    - Refund mate ni process su 6?
+    - Refund mate ni procedure su 6?
+    - Fees bhulthi biji category ma pay thai gai che to refund leva mate su process karvi padse mare?
+    - Mara thi fees by mistake biji category ma pay thai gai che to refund kai rite lai saku?
+    - Agar fees bhulthi wrong category ma pay thai hoy to refund mate ni process su 6?
+    - Fees refund mate ni procedure su 6?
+    - Fees refund leva mate ni process su 6?
+    - Mari fees 2 vaar cut thai gai 6 bank account mathi, to mane refund kyare malse?
+- intent: paid_less_fees_than_mentioned_hi
+  examples: |
+    - Mene fees kam pay kar di hai to ab kya karu?
+    - Mene fees kam pay kar di hai to kya karu ab?
+    - By mistake fees kam pay kar di hai to ab kya karu me?
+    - Fees pay karni thi usse kam pay ho gai hai to kya process karni padegi?
+    - Jitni fees pay krni thi usse kam pay ho gai hai to kya procedure follow karni padegi?
+    - Mujse galti se kam fees pay ho gai hai to ab kya karna padega?
+    - Galti se jitni fees bharni thi usse kam bhar di hai to kya process follow karni padegi?
+    - Agar fees kam pay ho gai ho to kya process karni padegi?
+    - Fees kam pay kar di ho to kya procedure karni padegi?
+- intent: paid_less_fees_than_mentioned_gu
+  examples: |
+    - Mara thi fees ochi bharai gai che to have su karu?
+    - Jetli fees bharvani hati enathi ochi pay thai gai che to su karu?
+    - mara thi bhulthi ochi fees bharai gai che to su karu?
+    - mara thi bhulthi ochi fees pay thai che to su process karvi padse?
+    - Fees ochi pay kari hoy to kai procedure follow karvi padse?
+    - Bhulthi fees ochi bharai gai che to su process karvi padse?
+    - By mistake fees jetli pay karvani hati ena thi ochi pay thai gai che to su procedure karvi padse?
+    - Jetli fees pay karavni hati ena thi ochi fees pay kari didhi hoy to su karu?
+    - Ochi fees pay thai jay to su procedure karvi padse change karva mate?
+- intent: entered_incorrect_information_while_paying_fees_hi
+  examples: |
+    - Fees pay karte time galti se name ki spelling wrong type ho gai hai to ab kya karna padega?
+    - Fees bharne k time par galat stream select kar li thi to kya karu ab?
+    - Fees bharne k time par galat department choose kar liya tha to kya karu ab me?
+    - category galat chhose kar li thi fees pay karne k time par to kya process karni hogi?
+    - name ki spelling galat type ho gai thi fees pay karne k time par to kya process karni hogi?
+    - Galat stream select ho gai thi fees pay krne k time par to kya process karni padegi?
+    - Fees pay karte time wrong name spelling enter kar di thi to kya process krni padegi?
+    - Fees pay karte time wrong stream select kar di thi to kya karna padega?
+    - Fees pay karte time wrong department select kar di thi to kya kar sak te hai ab?
+    - Galat branch choose kar li thi fees pay karne k time par to ab kya kar sakte hai?
+    - Fees pay kar te time wrong branch select kar di thi kya process karni padegi?
+    - Agar fees pay karte time par galat branch select kar di ho to kya kar te hai?
+- intent: entered_incorrect_information_while_paying_fees_gu
+  examples: |
+    - Fees pay karta time e khoti stream choose thai gai che to su kari sakay?
+    - Fees bharta time e wrong stream select kari lidhi hoy to su process karvi padse?
+    - stream khoti choose thai gai che fees pay karta time e to su karu?
+    - Fees pay karta time e khoti branch choose thai gai che to su kari sakay?
+    - Fees bharta time e wrong branch select kari lidhi hoy to su process karvi padse?
+    - branch khoti choose thai gai che fees pay karta time e to su karu?
+    - Fees pay karta time e khotu name type thai gayu che to su kari sakay?
+    - Fees bharta time e wrong name type kari lidhu hoy to su process karvi padse?
+    - name khotu type thai gayu che fees pay karta time e to su karu?
+- intent: bonafide_apply_hi
+  examples: |
+    - Muje bonafide chahie to kya process hai?
+    - Bonafide ke liye apply karna hai o konsi procedure follow karni hogi?
+    - Bonafide ke liye kya procedure rahegi?
+    - Bonafide ki process kya hai?
+    - Agar bonafide chahie to kya process rahegi?
+    - Agar bonafide k liye apply karna hai to kese kar sakte hai?
+    - Bonafide kese mil sakta hai?
+    - Mujhe bonafide certificate chaie passport nikalne ke liye, to muje kese milega?
+    - muje bonafide certificate chahiye kaise apply karne ka?
+    - bonafide certificate k liye kya karna hoga?
+    - muje bonafide certificate chahiye kya karu?
+    - bonafide certificate application k liye kya karna hoga?
+    - bonafide certificate apply kese karna hai?
+    - bonafide certificate toh application ki process kya hai?
+    - agr mujhe bonafide certificate chaiye toh kya process hai?
+    - agr muje bonafide certificate chahiye toh kya proces hai?
+    - bonafide prapt karne ki kya process hai?
+    - bonafide praapt kese karna hai?
+    - bonafide certificate kese prapt kar sakte hai?
+    - agar muje bonafide chaiye toh me kese uske liye apply karu?
+    - agar muje bonafide lena hai toh uski process kya hai?
+    - agar muje bonafide lena hai toh uski prakriya kya hai?
+    - agar mere ko bonafide certificate chaiye toh uske liye me kya karu?
+    - mere ko bonafide chaiye kese mil sakta hai?
+    - mere ko bonafide certificate chaiye kese milega?
+    - mere ko verification process k liye bonafide chaiye kese lene ka?
+    - bonafide application ki process kya hai?
+    - bonafde aplication lene ki kya procedure hai?
+    - passport nikalne k liye bonafide certificate chaiye kese milega?
+- intent: bonafide_apply_gu
+  examples: |
+    - Mare bonafide joie che to su karu?
+    - Bonafide mate apply karvani process su che?
+    - Bonafide joitu hoy to kai procedure karvi padse?
+    - Agar bonafide joitu hoy kai process karvi padse mare?
+    - Bonafide ni process su che?
+    - Bonafide melvva mate ni procedure su che?
+    - Bonafide kai rite mali sake?
+    - bonafide ma te apply kai rite karvanu?
+    - mare bonafide certificate joie 6e to mare su karvanu?
+- intent: detention_after_process_gu
+  examples: |
+    - maru detain no time pati gayo che have farithi sharu kai rite karvanu?
+    - maru detain no samay puro thai gayo che toh farithi bhanvanu chalu karvani shu process che?
+    - maru detain nu pati gayu che resume karvani ni shu process che?
+    - hu detain thai chu to pachu resume karvu che toh eni procedure shu che?
+    - mare gai kale detention pati gyu 6e to have mare su karvanu?
+    - maru detention pati gyu 6e to have hu su karu?
+    - Mare detain puru thai gaya pachi ni process jaanvi 6e
+    - Mare detain puru thai gaya pachi ni process jaanvi 6e, su chhe aa process?
+    - maru detention period pati gyu che aagad ni procedure shu che?
+    - maru detention period pati gayu che have studies resume karvani procedure shu che?
+    - maru detention pati gayu che farithi bhanvanu sharu kai rite karvanu?
+    - maru detention pati gayu che farithi bhanvanu sharu karvani process kai rite karvanu?
+    - maru detention pati gayu che farithi bhanvanu sharu karvanu procedure shu che?
+    - maru detention no samay puro thai gayo che resume karvani ni process shu che?
+    - maru detention no samay puro thai gayo che resume karvani ni procedure shu che?
+    - maru detention period pati gayo che aagad resume kai rite karvanu?
+    - detention period puro thai gayo che resume kai rite karvanu ?
+    - maru detention puru thai gayu che have su karu?
+    - maru detention over thai gayu che have shu karu?
+    - maru detention period khtam thai gayu che have farithi bhanvanu kai rite karvanu?
+    - mane resume ni process janvi che, maru detention period pati gayu che.
+    - mane resume ni process janvi che, maru detention period puru thai gayu che.
+    - mane resume ni process janvi che, maru detention period khtam thai gayu che.
+- intent: greeting_hello_en
+  examples: |
+    - Hii
+    - Hi
+    - Hello
+    - Hey
+    - Heyy
+    - How are you?
+    - Hii Bot
+    - hello bot
+    - how are you bot?
+    - How r you bot?
+    - How r u bot?
+    - hello vgecbot
+    - hii vgecbot
+    - How are you vgecbot?
+    - Hii i have one query
+    - hello I have one query
+    - Hii I have one doubt
+    - Heyy bot
+    - Heyy vgecbot
+    - Heyy how are you?
+    - Heyy how r u?
+    - Heyy how are u?
+    - Heyy i have one query
+    - heyy i have one query can you please tell me how to solve that?
+- intent: greeting_hello_hi
+  examples: |
+    - kese ho aap?
+    - aap kese ho?
+    - Kese ho bot?
+    - kese ho vgec bot?
+    - aap kese ho bot?
+    - aap kese ho vgec bot?
+    - helo bot kese ho?
+    - hii bot kese ho aap?
+    - heyy bot kese ho aap?
+    - hello bot aap kese ho?
+    - hii bot aap kese ho?
+    - kese ho? Muje el query hai?
+    - hello muje ek query hai? kya aap muje sahayta kar sakte hai?
+    - hello muje ek problem hai kya aap muje sahayta kar skte hai use solve karne me?
+    - hello bot muje apki madad chahiye
+    - hello bot kya aap meri madad kar sakte hai?
+    - hii bot kya aap meri sahayta kar sakte hai?
+    - hii bot muje apse madad chahie kya ap kar sakte hai?
+    - Bot, kya aap meri query solve karne me sahayata kar sakte hai?
+- intent: greeting_hello_gu
+  examples: |
+    - kem cho?
+    - tame kem cho?
+    - kem cho bot?
+    - hello bot kem cho?
+    - hii bot kem cho?
+    - heyy bot kem cho?
+    - Bot tame kem cho?
+    - hello bot mare help joie che
+    - heyy bot mare tamari help joie che
+    - heyy bot tamari help joie 6
+    - hii bot mare aapni help joie che
+    - hii bot mare aapni help joie 6
+    - hello bot taamri madad joie che
+    - hello bot tamari madad joie 6
+    - hello bot, mare tamari madad ni jarur che
+    - heyy bot , mare tamari madad ni jarur 6
+    - heyy bot tame mari help kari sakso?
+    - hello bot tame mari sahayata kari sakso?
+    - heyy bot tame mari sahayata kari sakso?
+- intent: greeting_bye_en
+  examples: |
+    - byee
+    - bye bot
+    - bye
+    - Bot byeee
+    - Thank you
+    - Bye
+    - Bye Bot!!
+    - Byeee
+    - Bye vgec bot
+    - bye vgecbot
+    - Bye bot thanks
+    - bye bot thank you
+    - bye bot thanks for your help
+    - bye bot thank you for solving my query
+    - thanks bot
+    - thanks vgec bot
+    - thanks bot for helping me
+    - Thanks vgec bot for solving my query
+    - thanks great to talk with you
+    - thanks for providing the solution
+    - thank you vgec bot
+    - thank you bot for helping me
+    - thank you bot for solving my query
+    - thank u bot
+    - thank you for help
+    - thanks for help
+    - thank you 4 help
+    - thank u for helping me
+    - thank u 4 helping me
+- intent: greeting_bye_hi
+  examples: |
+    - milte hai fir apse
+    - chalo bye
+    - fir milte hai apse
+    - Bye bot Sukriya
+    - bye bot Sukriya
+    - bye bot thanks help karne k liye
+    - bye bot dhanyvad meri query solve karne k liye
+    - Sukriya bot
+    - dhanyavad bot
+    - dhanyavad vgec bot
+    - Sukriya vgec bot
+    - Sukriya bot help karne k liye
+    - Sukriya vgec bot mera prasn ka samadhan karne k liye
+    - Sukriya aap se bat karke acha laga
+    - Sukriya prasn ka hal nikalne k liye
+    - Sukriya meri madad karne k liye
+    - Sukriya bot meri query ka hal nikalne k liye
+    - Sukriya madad k liye
+    - Madad k liye sukriya
+    - meri madad karne k liye dhanyvad
+    - meri help karne k liye sukriya
+    - meri sahayta karne k liye sukriya
+- intent: greeting_bye_gu
+  examples: |
+    - bye malie pachi
+    - malie pachi
+    - Bye bot aabhar tamaro
+    - bye bot aabhar
+    - bye bot aabhar madad karva mate
+    - bye bot dhanyvad mari query solve karva mate
+    - aabhar bot
+    - aabhar vgec bot
+    - Tamaro khub khub aabhar madad karva mate
+    - aabhar vgec bot mara prasn nu samadhan karva mate
+    - amari sathe vat karva mate dhanayvad
+    - Aabhar prasn nu hal nikalva mate
+    - aabhar mari madad karva mate
+    - Aabhar mari query nu samadhan karva badal
+    - Aabhar bot
+    - Aabhar madad karva mate
+    - Madad karva mate aabhar
+    - mari madad karne karva mate dhanyvad
+    - mari help karne karva mate aabhar
+    - mari sahayta karva mate aabhar
+    - sahayta karva mate aabhar
+- intent: bot_related_question_en
+  examples: |
+    - Who are you?
+    - Who am I talking to?
+    - Are you human?
+- intent: bot_developers_en
+  examples: |
+    - Who created you?
+- intent: bot_related_question_hi
+  examples: |
+    - Aap kon ho?
+- intent: bot_related_question_gu
+  examples: |
+    - Tame kon chho?
+    - Tame kon 6o?
+    - Tame kon cho?
+- intent: bot_developers_hi
+  examples: |
+    - Aapko kisne banaya?
+- intent: bot_developers_gu
+  examples: |
+    - Tamne kone banavya?
+    - Kone tamne banavya?
+- intent: name_of_principal_en
+  examples: |
+    - what is the name of principal?
+    - who is principal of vgec college?
+    - who is principal of this college?
+    - name of the principal
+    - Principal name of this college
+    - can you tell me the name of principal ?
+    - Please tell me the name of the principal of this college
+    - plz tel me name of the principal
+    - please tell the name of principal
+    - principal's name of college vgec
+    - vgec college's principal name
+    - Tell me principal's name
+    - Tel me principal name
+    - Tell me name of the principal of this college
+    - tel me nam of prinipal
+    - principal's name of this college
+    - This college's principal name
+    - Can you please tell me this college's principal name
+    - Tell me this college's principal name
+    - Tell the name of principal
+    - Do you know who is the this college's principal
+    - Do you the name of this college's principal?
+    - Do you know who is principal?
+    - Do you know who is principal of this vgec college?
+    - can you please tel me who is this college's principal?
+    - Can you plz tell me who is this college's principal?
+    - can you please tell me principal name of this college?
+    - can you plz tel me principal nam of this college?
+    - Can you please tell me principal's name of vgec college?
+    - name of principal of vgec campus
+    - Principal's name of this vgec college
+    - Principal's name of this vgec campus,chandkheda
+    - principal's name of this college campus
+    - Principal's name of this vgec campus chandkheda
+    - vgec campus principal's name
+    - What is the name of principal of VGEC?
+    - Who is principal of Vishwakarma Government Engineering College?
+    - Who is principal of VGEC?
+- intent: name_of_principal_hi
+  examples: |
+    - Principal ka name kya hai?
+    - Is college ke principal kon hai?
+    - College k principal ka name kya hai?
+    - Kon hai is college ka principal?
+    - VGEC college ka principal kon hai?
+    - name kya hai principal ka?
+    - nam kya hain principal ka?
+    - nam kya hai aacharya ka?
+    - name kya hain aacharya ka?
+    - iss college me principal kon hai?
+    - iss college me principal kon hain?
+    - is college k principal kon hain?
+    - is college k principal ka name kya hai?
+    - is college k principal ka name kya hain?
+    - kon hain is college ka principal?
+    - kon hai iss college ka principal?
+    - vgec college ka principal kon hain?
+    - vgec me principal kon hain?
+    - kya me is college ke principal ka name jan sakti hu?
+    - kya main is college ke principal ka name jan sakti hu?
+    - kya mai iss college ke principal ka name jan sakti hu?
+    - kya main iss college ke principal ka nam jan sakti hu?
+    - kya mai is college ke principal ka name jan sakta hu?
+    - kya main iss college ke principal ka nam jan sakta hun?
+    - Apko pata hai is college ke principal ka name?
+    - apko pta hain iss college ke principal ka name?
+    - apko pta hain is collge k principal ka nam?
+    - apko pata hai is college k principal ka nam kya hain?
+    - Kya aap muje is college k principal ka name bata sakte hain?
+    - kya ap muze is college ke principal ka name bata sakte hai?
+    - kya aap muje is college k principal ka nam bta sakte hain?
+    - Is college k principal ka name batao
+    - is collge me kon hain principal?
+    - principal ka name
+    - principal ka nam janna hai muje
+    - is college k principal ka nam janna hai muje
+    - vgec college me kon hai principal?
+    - Muje vgec college k principal k name ki jankari chahiye
+    - vgec college k principal ka name janna tha muje
+    - is college ka principal kon hai?
+    - principal ka name kya hai vgec college ka?
+    - app muje principal k name ki jankari de sakte hai?
+    - Ap muje principal k nam ki jankari de skte hai?
+    - Ap muje principal k name ki jankari de sakte hain?
+- intent: name_of_principal_gu
+  examples: |
+    - Aa college na principal nu name su che?
+    - aa college na principal nu nam su che?
+    - aa college na principal nu name su 6?
+    - a college na principal nu nam su 6?
+    - aa college ma principal kon 6?
+    - aa college ma principal kon che?
+    - college na principal nu nam su che?
+    - college na pirncipal nu name su 6?
+    - College na principal nu name su ?
+    - VGEC college na principal kon che?
+    - vgec college na principal kon che?
+    - vgec college ma principal kon 6?
+    - college na principal kon 6?
+    - College na principal kon che?
+    - nam su che aa college na principal nu?
+    - name su 6 aa college na principal nu?
+    - name su che a college na principal nu?
+    - nam su 6 a college na principal nu?
+    - mare aa college na principal nu name janvu che
+    - mare aa college na principal nu name janvu 6
+    - mare a college na principal nu nam janvu 6
+    - mre a college na principal nu nam janvu 6
+    - aa college na principal nu name jani saku?
+    - tamne aa college na principal nu name khbr che?
+    - tamne aa college na principal nu nam khbr 6?
+    - tmne a college na principal nu name khbr che?
+    - tmne a college na principal nu nam khbr 6?
+    - nam su 6 vgec college na principal nu?
+    - Name su che aa college na principal nu?
+    - College na principal nu name janavo
+    - college na principal nu nam batavo
+- intent: total_branches_en
+  examples: |
+    - How many branches are there in this college?
+    - how many branches r there in this college?
+    - how many branches are available in college?
+    - how many branches r available in college?
+    - how many branches are available in vgec college?
+    - how many branches r available in vgec college?
+    - can you please tell me total number of branches in this college?
+    - can u plz tell me total number of branches in this college?
+    - can you plz tell me total number of branches in this college?
+    - can you please tel me total number of branches in this college?
+    - can i know total umber of branches in this college?
+    - can i know totl number of branches in this college?
+    - totl number of branches in this college
+    - Total number of branches in this college
+    - In this college how many different branches are available?
+    - different branches available in this college
+    - in this college how many different branches r available?
+    - in this college how many different branches are there?
+    - In vgec how many branches are available?
+    - in vgec how many branches r available?
+- intent: total_branches_hi
+  examples: |
+    - Is college me total kitni branches hai?
+    - iss college me kool kitni branches hai?
+    - is college mai totl kitni branches hain?
+    - iss college me total kitni branches hain?
+    - college me total kitani branches hai?
+    - college me totl kitani branches hain?
+    - kitani total branches available hai?
+    - kitani totl branches available hain?
+    - kitni total branches available hai is college me?
+    - muje total kitni branches available hai iski jankari chahiye
+    - kya ap muje kul kitni branches hai is college me vo bata sakta hai?
+    - kya aap muje kool kitni branches hai is college me wo bata sakte hain?
+    - me jan sakta hu is college me kool kitni branches hai?
+    - me jan sakti hu is college me kul kitni branches hai?
+    - me janna chahta hu is college me kitni branches hai?
+    - kya aap muje total branches kitni hai is college me vo bata sakte hai?
+    - total kitni branches hai vo janna hai?
+    - total kitni branches hai is college me uski jankari chahiye
+    - totl kitni barnches hai iss college me uski jankari chahiye
+    - College me kitni branches hai?
+    - Kitni branches available hai?
+    - Mujhe vgec me kitne branches he uski jaankari chaie.
+    - Mujhe vgec me kitni branches he uskki jaankari chaie
+    - Mujhe vgec me kitni branches he uski jaankari chaie.
+    - vgec me kitni branches he?
+- intent: total_branches_gu
+  examples: |
+    - Aa college ma ketli branches che kool?
+    - a college ma ketli branches che kul?
+    - aa college ma ktli branches che kul?
+    - aa college ma ketli branches 6 total?
+    - a college ma ktli branches 6 kool?
+    - aa college ma ketli branches 6 kul?
+    - college ma total ketli branches 6?
+    - college ma kul ketli branches 6?
+    - college ma kool ketli branches che?
+    - college ma total ketli branches available che?
+    - College ma total ketli branches che?
+    - VGEC ma total ketli branches available che?
+    - vgec ma kool ketli branches availlable che?
+    - vgec ma totl ketli branches available 6?
+    - Aa college ma total ketli branches 6 e jani saku?
+    - a college ma kool ketli branches che e jani saku?
+    - Mare total branches ni jankari joie che
+    - mare kool ketli branches che aa college ma e janvu hatu
+    - mare total ketli branches che a college ma e janvu hatu
+    - mare total ketli branches 6 aa college ma e janvu 6
+    - Total ketli branches che aa college ma mare e janvu 6
+    - Total ketli branches 6 aa college ma mare e janvu 6
+    - kool ketli branches 6 aa college ma mare e janvu 6
+    - kul ketli branches che aa college ma mare e janvu 6
+    - apdi college ma ketli branches chhe?
+    - vgec ma branch ketli chhe
+    - VGEC ma ketli branches chhe
+- intent: list_of_central_facilities_en
+  examples: |
+    - What are the facilities of vishwakarma college?
+    - what facilities of vgec college?
+    - facilities of vishwakarma collage?
+    - please tell me facilities of vgec college?
+    - please tell me vgec facilities?
+    - what are the main facilities vgec provide to students?
+    - what are the facilities vgec provide?
+    - what are the facilities vishwakarma provide?
+    - what are the facilities college provide us?
+    - what are the facilities collage provide?
+    - facilities in vgec ?
+    - facilities in vgec college?
+    - facility there in vgec college?
+    - what are the facility available in college?
+    - what are the available facility?
+    - what facility available in college?
+    - what central facility college give us?
+    - what central facility college provide us?
+    - vgec provide which facility?
+    - vishwakarma provide which basic facilities?
+    - Give me the list of central facilities of vgec?
+    - Give me the list of central facilities of vishawakarma?
+    - please Give me the list of central facilities of college?
+- intent: list_of_central_facilities_gu
+  examples: |
+    - vgec ni facilities shu che?
+    - vgec ni facilties su che?
+    - vishwakarma ni facility kai che?
+    - vgec college ma kai kai facility che?
+    - college ma kai suvidha male che?
+    - collage ni kai suvidha male che?
+    - kai suvidha vgec aape che?
+    - kai kai suvidha college provide kare che?
+    - kai suvidha collage aape che?
+    - colege ni facility shu che?
+    - colege ma kai suvidha male che?
+    - main facility shu che college ni?
+    - central facility shu che?
+    - vgec ni central facility shu che?
+    - vgec ni main suvidha shu che?
+    - college ni suvidha ni list shu che?
+    - mane collge ni suvidha ni list shu che?
+    - mane college ni list aapo ne?
+    - mane college ni suvidha shu che,aapo ne?
+    - vgec ni suvidha ni list shu che?
+    - vgec ni suvidha ni list kai kai che?
+- intent: list_of_central_facilities_hi
+  examples: |
+    - vgec ki facilities kya hai?
+    - vgec ki facilites ky ha?
+    - vishwakarma ki facilities kya he?
+    - vgec ki suvidhaye kya hai?
+    - vgec ki suvidhye konsi hai?
+    - college ki suvidhaye bataiye?
+    - vgec college ki suvidhaye konsi konsi hai?
+    - college vgec ki konsi suvidhye hai?
+    - vishwakarma collage konsi suvidhaye provide karte hai?
+    - college ki main suvidhaye ki list bataiye?
+    - college ki konsi main suvidhaye hai uski list kya hai?
+    - vgec ki main konsi suvidhaye hai?
+    - central facility kya hai college ki?
+    - muhje college ki sari suvidhaye ki list bataiye?
+    - college ki suvidhaye k bare me bataiye?
+    - muje college ki suvidhaye ki list chahiye?
+    - colege ki sari facility janhi hai muje.
+- intent: faculty_contact_for_scholarship_information_gu
+  examples: |
+    - scholarship mate kone contact karu?
+    - SEBC ni scholarship mate kono sampark karu?
+    - ST ni scholarship mate kone sampark karu?
+    - MYSY scholarship mate kone puchavnu?
+    - NSP scolarship mate kone puchvanu?
+    - schilarship ni problems mate kone puchvanu?
+    - scholarship ni faculty kaya block ma bese che?
+    - scholarship ni mahiti mate kone puchvanu?
+    - mane scholarship mate mahiti levi che kone puchvanu?
+    - scholarship mate kone puchvanu?
+    - scholarship ni mahiti mate kone puchu?
+    - scholarship mate faculty kaya block ma malse?
+    - faculty kaya block ma che scholarship mate?
+    - mane scholarship mate faculty no contact aapo ne?
+    - scholarship mate kaya block and kono sampark karavo?
+    - scholarship ni kveri mate kone puchvanu?
+    - mane skalarship ni kveri nu puchvanu che?
+    - skalarship nu puchava mate kone sampark karvanu?
+    - skalarship na prasno mate koni sathe mare samparka karavano?
+    - skalarship prasno mate mare samparka karavo che?
+    - mane skalarship prasno mate kaya block ma javnau college ma?
+    - scholarship information mate kai faculty ne contact karvanu
+- intent: faculty_contact_for_scholarship_information_hi
+  examples: |
+    - scholarship ke liye kisko puchne ka?
+    - scholarship ke liye kis faculty ko puchne ka?
+    - skalarship ke liye kisko sampark karneka?
+    - skalarship ke liye konsi faculty ko sampark karne ka hai?
+    - skalarship ki jankari ke liye kisko puchne ka hai?
+    - skalarship ki jankari dijiye?
+    - scholarship ki jankari kese milegi?
+    - scholarship ke liye konsi faculty ko contact karne ka?
+    - skarlarship ke liye konsi faculty ko puchne ka?
+    - skarlarship ke prasno k liye kisko puchne ka?
+    - scholarship ki querry k liye kisko sampark kar ne ka?
+    - schlarship ke prasno ke liye kisko puchne ka?
+    - scholarship ke questions kis faculty ko puchna hai?
+    - kis faculty ko contact karne ka scholarship k liye?
+    - scolarship ki infomation k liye faculty ka contact kya hai?
+    - alag alag scholarship ke liye conatacts kya hai?
+    - muje scholarship ki query hai faculty ka mail id kya hai?
+    - muje scholarship ki query hai faculty college me kaha milege?
+    - muje scholarship ki query hai faculty kaha milege?
+- intent: faculty_contact_for_scholarship_information_en
+  examples: |
+    - To whom to contact for scholarship query?
+    - how to contact to the faculty for scholarship query?
+    - for scholarship query how to contact to faculty?
+    - for scholarship whom to contact?
+    - for scholarship which faculty to contact?
+    - for scholarship queries whom to contact?
+    - in which block to go for scolarship queries?
+    - where to go in college for scolarship questions?
+    - which faculty to contact for scolarship queries?
+    - for scolarship information which faculty to contact?
+    - for scolarship information which faculty to ask?
+    - which faculty to ask for scolarship queries?
+    - which faculty to inquire for scolarship?
+    - faculty contact for scolarship information
+    - which faculty contact for scolarship information?
+    - what is the maid id of faculty for scolarship queries?
+    - maid id to contact faculty for scholarship queries
+    - for different types of scolarship whom to contact?
+    - for different categories of scholarship whom to contact?
+    - I need to know about scholarship, whom should I contact?
+    - I want to know about scholarship, whom should I contact?
+- intent: medical_facilities_en
+  examples: |
+    - what are the medical facility available in vgec
+    - where to go for medicine?
+    - venue for medical facilities?
+    - days and time for medical facilities?
+    - which days medical facility available?
+    - medical facility in vgec?
+    - medical facility in vishwakarma college?
+    - what are medical facility available in college?
+    - where to contact for medical facility?
+    - where to contact for medical in college?
+    - where to contact for medical in vgec?
+    - where to contact for medical in vishwakarma?
+    - what facilities are available for medical?
+    - what facilities are available for medical in vgec
+    - what facilities are available for medical in vishwakarma college?
+    - where to go for medical facility?
+    - where to go for medical facility in vgec
+    - is medical facility available in vgec
+    - is medical facility available in vishwakarma govt college?
+    - please provide information of medical facility in college?
+- intent: medical_facilities_hi
+  examples: |
+    - collage me konsi medical facility hai?
+    - medical ki suvidha k liye kaha jana hoga?
+    - medical facility ka venue kaha hai?
+    - medical facility vgec mai?
+    - konsi medical facility vgec mai hai?
+    - konsi medical facility vgec mai provide hoti hai?
+    - konsi medical facility college mai hai?
+    - konsi medical facility college main provide hoti hai?
+    - medical facility k liye kaha sampark karne ka college me?
+    - medical facility k liye kaha sampark karne ka collage me?
+    - medical facility college mai?
+    - medical facility collage me?
+    - college me medical ki suvidha hai?
+    - collage mai medical ki suvidha hai?
+    - college me medical ki konsi suvidha hai?
+    - muje college ki medical ki suvidhaye bataiye?
+    - medical suvidha konse block mai hai?
+    - konse din suvidhaye milti hai?
+    - konse din or konse time medical ki suvidhaye milti hai?
+    - konse samay medical facility milti hai?
+    - college mei konse time pe medical facility milti hai?
+- intent: medical_facilities_gu
+  examples: |
+    - college ma kai medical facility male che?
+    - collage ma kai kai medical facility male che?
+    - college ma kai kai medical facilty che?
+    - medicine mate kaya block ma javu?
+    - medicine mate kai jagya e javanu?
+    - medicine mate kya javanu che?
+    - medicine mate college ma kya javanu?
+    - collage ma medical facility kya che?
+    - collage ma medical facility che?
+    - collage ma medical suvidha kevi che?
+    - college ma medical suvidha che?
+    - medical facility mate kya javanu che?
+    - medical facility mate collage ma kya javnau?
+    - medical facility collage ma kya javanu?
+    - medical facility no venue kya che?
+    - medical suvidha kaya divas and kaya samay male che?
+    - vgec ma medical suvidha kaya divas e male che?
+    - vgec ma medical suvidha kaya samay e male che?
+    - medical facility collage ma malse?
+    - medical facility college ma male che?
+    - medical suvidha collage ma mal che?
+    - medical suvidha kya che college ma ?
+- intent: list_of_faculty_in_chemical_department_gu
+  examples: |
+    - chemical department na faculty nu list apo?
+    - chemical department ni faculty ni list aapo?
+    - chemical department  ma kai faculty che?
+    - chemical department faculty list apo?
+    - mane chemical department na faculty nu list apo?
+    - mane chemical engineering department ni faculty ni list apo?
+    - mane chemical engineering  ni faculty ni list apo?
+    - chemical engineering ni faculty ni list apo?
+    - chemical department ni faculty ni list shu che?
+    - mane faculty ni list joiye che chemical department na?
+    - mane faculty ni list appo chemical department nu?
+    - mne faculty list aapo chemical department nu?
+    - mane faculty chemical department ni list apo
+    - chemical department ni list apo.
+    - chemical department faculty ni list apo.
+    - mane chemical enginering ni list shu che?
+- intent: list_of_faculty_in_chemical_department_hi
+  examples: |
+    - chemical department ke faculty kon hai?
+    - chemical department ke faculty ki list do
+    - chemical department ki fakulty konsi hai?
+    - chemical department faculty kon konsi hai?
+    - chemical department faculty kon hai?
+    - chemical engineering faculty ki list do
+    - chemical engineering department faculty list kya hai?
+    - chemical deapartment me kon hai?
+    - chemical department me konsi faculty padhati hai?
+    - muje chemical department ki faculty ki jankari didjiye
+    - muje chemical department faculty ki list dijiye
+    - muje chemical ke faculty ka naam do
+    - muje chemical department ki faculty ke bare me jankari do
+    - muje faculty ki list do chemical department k?
+    - muje faculty ka list chahiye chemical department ka
+    - chemical department k faculty kon hai?
+    - vgec ke chemical department me kon hai?
+    - vgec ke chemical department ki faculty kon hai?
+    - college ke chemical ki faculty ki list dijiye
+    - vishwakrama college ki chemical department ki faculty ki list do
+- intent: list_of_faculty_in_chemical_department_en
+  examples: |
+    - give me the list of chemical department faculty
+    - please provide me the list of faculty of chemical department
+    - list of faculty of chemical engineering department
+    - list of faculty of chemical department
+    - faculty of chemical department
+    - faculty of chemical engineering department
+    - please give me the list of chemical faculty
+    - please give list of faculty of chemical
+    - can you please provide me the list of chemical department faculty
+    - I want list of chemical department faculty
+    - what are the faculty of chemical department?
+    - what faculty in chemical department in vgec?
+    - what faculty are there in chemical department in vgec?
+    - faculty list of chemical department in college?
+    - faculty list of chemical department in collage?
+    - list of faculty of chemical in college
+    - list of faculty of chemical in collage
+    - faculty list of chemical engineering department
+    - faculty list of chemical department
+    - college faculty list of chemical department
+    - collage faculty list of chemical engineering department
+- intent: list_of_faculty_in_civil_department_gu
+  examples: |
+    - civil department na faculty nu list apo?
+    - civil department ni faculty ni list aapo?
+    - civil department  ma kai faculty che?
+    - civil department faculty list apo?
+    - mane civil department na faculty nu list apo?
+    - mane civil engineering department ni faculty ni list apo?
+    - mane civil engineering  ni faculty ni list apo?
+    - civil engineering ni faculty ni list apo?
+    - civil department ni faculty ni list shu che?
+    - mane faculty ni list joiye che civil department na?
+    - mane faculty ni list appo civil department nu?
+    - mne faculty list aapo civil department nu?
+    - mane faculty civil department ni list apo
+    - civil department ni list apo.
+    - civil department faculty ni list apo.
+    - mane civil enginering ni list shu che?
+- intent: list_of_faculty_in_civil_department_hi
+  examples: |
+    - civil department ke faculty kon hai?
+    - civil department ke faculty ki list do
+    - civil department ki fakulty konsi hai?
+    - civil department faculty kon konsi hai?
+    - civil department faculty kon hai?
+    - civil engineering faculty ki list do
+    - civil engineering department faculty list kya hai?
+    - civil deapartment me kon hai?
+    - civil department me konsi faculty padhati hai?
+    - muje civil department ki faculty ki jankari didjiye
+    - muje civil department faculty ki list dijiye
+    - muje civil ke faculty ka naam do
+    - muje civil department ki faculty ke bare me jankari do
+    - muje faculty ki list do civil department k?
+    - muje faculty ka list chahiye civil department ka
+    - civil department k faculty kon hai?
+    - vgec ke civil department me kon hai?
+    - vgec ke civil department ki faculty kon hai?
+    - college ke civil ki faculty ki list dijiye
+    - vishwakrama college ki civil department ki faculty ki list do
+- intent: list_of_faculty_in_civil_department_en
+  examples: |
+    - give me the list of civil department faculty
+    - please provide me the list of faculty of civil department
+    - list of faculty of civil engineering department
+    - list of faculty of civil department
+    - faculty of civil department
+    - faculty of civil engineering department
+    - please give me the list of civil faculty
+    - plase give list of faculty of civil
+    - can you please provide me the list of civil department faculty
+    - I want list of civil department faculty
+    - what are the faculty of civil department?
+    - what faculty in civil department in vgec?
+    - what faculty are there in civil department in vgec?
+    - faculty list of civil department in college?
+    - faculty list of civil department in collage?
+    - list of faculty of civil in college
+    - list of faculty of civil in collage
+    - faculty list of civil engineering department
+    - faculty list of civil department
+    - college faculty list of civil department
+    - collage faculty list of civil engineering department
+- intent: list_of_faculty_in_computer_department_gu
+  examples: |
+    - computer department na faculty nu list apo?
+    - computer department ni faculty ni list aapo?
+    - computer department  ma kai faculty che?
+    - computer department faculty list apo?
+    - mane computer department na faculty nu list apo?
+    - mane computer engineering department ni faculty ni list apo?
+    - mane computer engineering  ni faculty ni list apo?
+    - computer engineering ni faculty ni list apo?
+    - computer department ni faculty ni list shu che?
+    - mane faculty ni list joiye che computer department na?
+    - mane faculty ni list appo computer department nu?
+    - mne faculty list aapo computer department nu?
+    - mane faculty computer department ni list apo
+    - computer department ni list apo.
+    - computer department faculty ni list apo.
+    - mane computer enginering ni list shu che?
+- intent: list_of_faculty_in_computer_department_hi
+  examples: |
+    - computer department ke faculty kon hai?
+    - computer department ke faculty ki list do
+    - computer department ki fakulty konsi hai?
+    - computer department faculty kon konsi hai?
+    - computer department faculty kon hai?
+    - computer engineering faculty ki list do
+    - computer engineering department faculty list kya hai?
+    - computer deapartment me kon hai?
+    - computer department me konsi faculty padhati hai?
+    - muje computer department ki faculty ki jankari didjiye
+    - muje computer department faculty ki list dijiye
+    - muje computer ke faculty ka naam do
+    - muje computer department ki faculty ke bare me jankari do
+    - muje faculty ki list do computer department k?
+    - muje faculty ka list chahiye computer department ka
+    - computer department k faculty kon hai?
+    - vgec ke computer department me kon hai?
+    - vgec ke computer department ki faculty kon hai?
+    - college ke computer ki faculty ki list dijiye
+    - vishwakrama college ki computer department ki faculty ki list do
+- intent: list_of_faculty_in_computer_department_en
+  examples: |
+    - give me the list of computer department faculty
+    - please provide me the list of faculty of computer department
+    - list of faculty of computer engineering department
+    - list of faculty of computer department
+    - faculty of computer department
+    - faculty of computer engineering department
+    - please give me the list of computer faculty
+    - plase give list of faculty of computer
+    - can you please provide me the list of computer department faculty
+    - I want list of computer department faculty
+    - what are the faculty of computer department?
+    - what faculty in computer department in vgec?
+    - what faculty are there in computer department in vgec?
+    - faculty list of computer department in college?
+    - faculty list of computer department in collage?
+    - list of faculty of computer in college
+    - list of faculty of computer in collage
+    - faculty list of computer engineering department
+    - faculty list of computer department
+    - college faculty list of computer department
+    - collage faculty list of computer engineering department
+- intent: list_of_faculty_in_electrical_department_gu
+  examples: |
+    - electrical department na faculty nu list apo?
+    - electrical department ni faculty ni list aapo?
+    - electrical department  ma kai faculty che?
+    - electrical department faculty list apo?
+    - mane electrical department na faculty nu list apo?
+    - mane electrical engineering department ni faculty ni list apo?
+    - mane electrical engineering  ni faculty ni list apo?
+    - electrical engineering ni faculty ni list apo?
+    - electrical department ni faculty ni list shu che?
+    - mane faculty ni list joiye che electrical department na?
+    - mane faculty ni list appo electrical department nu?
+    - mne faculty list aapo electrical department nu?
+    - mane faculty electrical department ni list apo
+    - electrical department ni list apo.
+    - electrical department faculty ni list apo.
+    - mane electrical enginering ni list shu che?
+- intent: list_of_faculty_in_electrical_department_hi
+  examples: |
+    - electrical department ke faculty kon hai?
+    - electrical department ke faculty ki list do
+    - electrical department ki fakulty konsi hai?
+    - electrical department faculty kon konsi hai?
+    - electrical department faculty kon hai?
+    - electrical engineering faculty ki list do
+    - electrical engineering department faculty list kya hai?
+    - electrical deapartment me kon hai?
+    - electrical department me konsi faculty padhati hai?
+    - muje electrical department ki faculty ki jankari didjiye
+    - muje electrical department faculty ki list dijiye
+    - muje electrical ke faculty ka naam do
+    - muje electrical department ki faculty ke bare me jankari do
+    - muje faculty ki list do electrical department k?
+    - muje faculty ka list chahiye electrical department ka
+    - electrical department k faculty kon hai?
+    - vgec ke electrical department me kon hai?
+    - vgec ke electrical department ki faculty kon hai?
+    - college ke electrical ki faculty ki list dijiye
+    - vishwakrama college ki electrical department ki faculty ki list do
+- intent: list_of_faculty_in_electrical_department_en
+  examples: |
+    - give me the list of electrical department faculty
+    - please provide me the list of faculty of electrical department
+    - list of faculty of electrical engineering department
+    - list of faculty of electrical department
+    - faculty of electrical department
+    - faculty of electrical engineering department
+    - please give me the list of electrical faculty
+    - plase give list of faculty of electrical
+    - can you please provide me the list of electrical department faculty
+    - I want list of electrical department faculty
+    - what are the faculty of electrical department?
+    - what faculty in electrical department in vgec?
+    - what faculty are there in electrical department in vgec?
+    - faculty list of electrical department in college?
+    - faculty list of electrical department in collage?
+    - list of faculty of electrical in college
+    - list of faculty of electrical in collage
+    - faculty list of electrical engineering department
+    - faculty list of electrical department
+    - college faculty list of electrical department
+    - collage faculty list of electrical engineering department
+- intent: list_of_faculty_in_electronics_and_communication_department_gu
+  examples: |
+    - electronics and communication department na faculty nu list apo?
+    - electronics and communication department ni faculty ni list aapo?
+    - electronics and communication department  ma kai faculty che?
+    - electronics and communication department faculty list apo?
+    - mane electronics and communication department na faculty nu list apo?
+    - mane electronics and communication engineering department ni faculty ni list apo?
+    - mane electronics and communication engineering  ni faculty ni list apo?
+    - electronics and communication engineering ni faculty ni list apo?
+    - electronics and communication department ni faculty ni list shu che?
+    - mane faculty ni list joiye che electronics and communication department na?
+    - mane faculty ni list appo electronics and communication department nu?
+    - mne faculty list aapo electronics and communication department nu?
+    - mane faculty electronics and communication department ni list apo
+    - electronics and communication department ni list apo.
+    - electronics and communication department faculty ni list apo.
+    - mane electronics and communication enginering ni list shu che?
+- intent: list_of_faculty_in_electronics_and_communication_department_hi
+  examples: |
+    - electronics and communication department ke faculty kon hai?
+    - electronics and communication department ke faculty ki list do
+    - electronics and communication department ki fakulty konsi hai?
+    - electronics and communication department faculty kon konsi hai?
+    - electronics and communication department faculty kon hai?
+    - electronics and communication engineering faculty ki list do
+    - electronics and communication engineering department faculty list kya hai?
+    - electronics and communication deapartment me kon hai?
+    - electronics and communication department me konsi faculty padhati hai?
+    - muje electronics and communication department ki faculty ki jankari didjiye
+    - muje electronics and communication department faculty ki list dijiye
+    - muje electronics and communication ke faculty ka naam do
+    - muje electronics and communication department ki faculty ke bare me jankari do
+    - muje faculty ki list do electronics and communication department k?
+    - muje faculty ka list chahiye electronics and communication department ka
+    - electronics and communication department k faculty kon hai?
+    - vgec ke electronics and communication department me kon hai?
+    - vgec ke electronics and communication department ki faculty kon hai?
+    - college ke electronics and communication ki faculty ki list dijiye
+    - vishwakrama college ki electronics and communication department ki faculty ki list do
+- intent: list_of_faculty_in_electronics_and_communication_department_en
+  examples: |
+    - give me the list of electronics and communication department faculty
+    - please provide me the list of faculty of electronics and communication department
+    - list of faculty of electronics and communication engineering department
+    - list of faculty of electronics and communication department
+    - faculty of electronics and communication department
+    - faculty of electronics and communication engineering department
+    - please give me the list of electronics and communication faculty
+    - plase give list of faculty of electronics and communication
+    - can you please provide me the list of electronics and communication department faculty
+    - I want list of electronics and communication department faculty
+    - what are the faculty of electronics and communication department?
+    - what faculty in electronics and communication department in vgec?
+    - what faculty are there in electronics and communication department in vgec?
+    - faculty list of electronics and communication department in college?
+    - faculty list of electronics and communication department in collage?
+    - list of faculty of electronics and communication in college
+    - list of faculty of electronics and communication in collage
+    - faculty list of electronics and communication engineering department
+    - faculty list of electronics and communication department
+    - college faculty list of electronics and communication department
+    - collage faculty list of electronics and communication engineering department
+- intent: list_of_faculty_in_information_technology_department_gu
+  examples: |
+    - information technology department na faculty nu list apo?
+    - information technology department ni faculty ni list aapo?
+    - information technology department  ma kai faculty che?
+    - information technology department faculty list apo?
+    - mane information technology department na faculty nu list apo?
+    - mane information technology engineering department ni faculty ni list apo?
+    - mane information technology engineering  ni faculty ni list apo?
+    - information technology engineering ni faculty ni list apo?
+    - information technology department ni faculty ni list shu che?
+    - mane faculty ni list joiye che information technology department na?
+    - mane faculty ni list appo information technology department nu?
+    - mne faculty list aapo information technology department nu?
+    - mane faculty information technology department ni list apo
+    - information technology department ni list apo.
+    - information technology department faculty ni list apo.
+    - mane information technology enginering ni list shu che?
+- intent: list_of_faculty_in_information_technology_department_hi
+  examples: |
+    - information technology department ke faculty kon hai?
+    - information technology department ke faculty ki list do
+    - information technology department ki fakulty konsi hai?
+    - information technology department faculty kon konsi hai?
+    - information technology department faculty kon hai?
+    - information technology engineering faculty ki list do
+    - information technology engineering department faculty list kya hai?
+    - information technology deapartment me kon hai?
+    - information technology department me konsi faculty padhati hai?
+    - muje information technology department ki faculty ki jankari didjiye
+    - muje information technology department faculty ki list dijiye
+    - muje information technology ke faculty ka naam do
+    - muje information technology department ki faculty ke bare me jankari do
+    - muje faculty ki list do information technology department k?
+    - muje faculty ka list chahiye information technology department ka
+    - information technology department k faculty kon hai?
+    - vgec ke information technology department me kon hai?
+    - vgec ke information technology department ki faculty kon hai?
+    - college ke information technology ki faculty ki list dijiye
+    - vishwakrama college ki information technology department ki faculty ki list do
+- intent: list_of_faculty_in_information_technology_department_en
+  examples: |
+    - give me the list of information technology department faculty
+    - please provide me the list of faculty of information technology department
+    - list of faculty of information technology engineering department
+    - list of faculty of information technology department
+    - faculty of information technology department
+    - faculty of information technology engineering department
+    - please give me the list of information technology faculty
+    - plase give list of faculty of information technology
+    - can you please provide me the list of information technology department faculty
+    - I want list of information technology department faculty
+    - what are the faculty of information technology department?
+    - what faculty in information technology department in vgec?
+    - what faculty are there in information technology department in vgec?
+    - faculty list of information technology department in college?
+    - faculty list of information technology department in collage?
+    - list of faculty of information technology in college
+    - list of faculty of information technology in collage
+    - faculty list of information technology engineering department
+    - faculty list of information technology department
+    - college faculty list of information technology department
+    - collage faculty list of information technology engineering department
+- intent: list_of_faculty_in_instrumentation_and_control_department_gu
+  examples: |
+    - instrumentation and control department na faculty nu list apo?
+    - instrumentation and control department ni faculty ni list aapo?
+    - instrumentation and control department  ma kai faculty che?
+    - instrumentation and control department faculty list apo?
+    - mane instrumentation and control department na faculty nu list apo?
+    - mane instrumentation and control engineering department ni faculty ni list apo?
+    - mane instrumentation and control engineering  ni faculty ni list apo?
+    - instrumentation and control engineering ni faculty ni list apo?
+    - instrumentation and control department ni faculty ni list shu che?
+    - mane faculty ni list joiye che instrumentation and control department na?
+    - mane faculty ni list appo instrumentation and control department nu?
+    - mne faculty list aapo instrumentation and control department nu?
+    - mane faculty instrumentation and control department ni list apo
+    - instrumentation and control department ni list apo.
+    - instrumentation and control department faculty ni list apo.
+    - mane instrumentation and control enginering ni list shu che?
+- intent: list_of_faculty_in_instrumentation_and_control_department_hi
+  examples: |
+    - instrumentation and control department ke faculty kon hai?
+    - instrumentation and control department ke faculty ki list do
+    - instrumentation and control department ki fakulty konsi hai?
+    - instrumentation and control department faculty kon konsi hai?
+    - instrumentation and control department faculty kon hai?
+    - instrumentation and control engineering faculty ki list do
+    - instrumentation and control engineering department faculty list kya hai?
+    - instrumentation and control deapartment me kon hai?
+    - instrumentation and control department me konsi faculty padhati hai?
+    - muje instrumentation and control department ki faculty ki jankari didjiye
+    - muje instrumentation and control department faculty ki list dijiye
+    - muje instrumentation and control ke faculty ka naam do
+    - muje instrumentation and control department ki faculty ke bare me jankari do
+    - muje faculty ki list do instrumentation and control department k?
+    - muje faculty ka list chahiye instrumentation and control department ka
+    - instrumentation and control department k faculty kon hai?
+    - vgec ke instrumentation and control department me kon hai?
+    - vgec ke instrumentation and control department ki faculty kon hai?
+    - college ke instrumentation and control ki faculty ki list dijiye
+    - vishwakrama college ki instrumentation and control department ki faculty ki list do
+- intent: list_of_faculty_in_instrumentation_and_control_department_en
+  examples: |
+    - give me the list of instrumentation and control department faculty
+    - please provide me the list of faculty of instrumentation and control department
+    - list of faculty of instrumentation and control engineering department
+    - list of faculty of instrumentation and control department
+    - faculty of instrumentation and control department
+    - faculty of instrumentation and control engineering department
+    - please give me the list of instrumentation and control faculty
+    - plase give list of faculty of instrumentation and control
+    - can you please provide me the list of instrumentation and control department faculty
+    - I want list of instrumentation and control department faculty
+    - what are the faculty of instrumentation and control department?
+    - what faculty in instrumentation and control department in vgec?
+    - what faculty are there in instrumentation and control department in vgec?
+    - faculty list of instrumentation and control department in college?
+    - faculty list of instrumentation and control department in collage?
+    - list of faculty of instrumentation and control in college
+    - list of faculty of instrumentation and control in collage
+    - faculty list of instrumentation and control engineering department
+    - faculty list of instrumentation and control department
+    - college faculty list of instrumentation and control department
+    - collage faculty list of instrumentation and control engineering department
+- intent: list_of_faculty_in_mechanical_engineering_department_gu
+  examples: |
+    - mechanical department na faculty nu list apo?
+    - mechanical department ni faculty ni list aapo?
+    - mechanical department  ma kai faculty che?
+    - mechanical department faculty list apo?
+    - mane mechanical department na faculty nu list apo?
+    - mane mechanical engineering department ni faculty ni list apo?
+    - mane mechanical engineering  ni faculty ni list apo?
+    - mechanical engineering ni faculty ni list apo?
+    - mechanical department ni faculty ni list shu che?
+    - mane faculty ni list joiye che mechanical department na?
+    - mane faculty ni list appo mechanical department nu?
+    - mne faculty list aapo mechanical department nu?
+    - mane faculty mechanical department ni list apo
+    - mechanical department ni list apo.
+    - mechanical department faculty ni list apo.
+    - mane mechanical enginering ni list shu che?
+- intent: list_of_faculty_in_mechanical_engineering_department_hi
+  examples: |
+    - mechanical department ke faculty kon hai?
+    - mechanical department ke faculty ki list do
+    - mechanical department ki fakulty konsi hai?
+    - mechanical department faculty kon konsi hai?
+    - mechanical department faculty kon hai?
+    - mechanical engineering faculty ki list do
+    - mechanical engineering department faculty list kya hai?
+    - mechanical deapartment me kon hai?
+    - mechanical department me konsi faculty padhati hai?
+    - muje mechanical department ki faculty ki jankari didjiye
+    - muje mechanical department faculty ki list dijiye
+    - muje mechanical ke faculty ka naam do
+    - muje mechanical department ki faculty ke bare me jankari do
+    - muje faculty ki list do mechanical department k?
+    - muje faculty ka list chahiye mechanical department ka
+    - mechanical department k faculty kon hai?
+    - vgec ke mechanical department me kon hai?
+    - vgec ke mechanical department ki faculty kon hai?
+    - college ke mechanical ki faculty ki list dijiye
+    - vishwakrama college ki mechanical department ki faculty ki list do
+- intent: list_of_faculty_in_mechanical_engineering_department_en
+  examples: |
+    - give me the list of mechanical department faculty
+    - please provide me the list of faculty of mechanical department
+    - list of faculty of mechanical engineering department
+    - list of faculty of mechanical department
+    - faculty of mechanical department
+    - faculty of mechanical engineering department
+    - please give me the list of mechanical faculty
+    - plase give list of faculty of mechanical
+    - can you please provide me the list of mechanical department faculty
+    - I want list of mechanical department faculty
+    - what are the faculty of mechanical department?
+    - what faculty in mechanical department in vgec?
+    - what faculty are there in mechanical department in vgec?
+    - faculty list of mechanical department in college?
+    - faculty list of mechanical department in collage?
+    - list of faculty of mechanical in college
+    - list of faculty of mechanical in collage
+    - faculty list of mechanical engineering department
+    - faculty list of mechanical department
+    - college faculty list of mechanical department
+    - collage faculty list of mechanical engineering department
+- intent: list_of_faculty_in_power_electronics_department_gu
+  examples: |
+    - power electronics department na faculty nu list apo?
+    - power electronics department ni faculty ni list aapo?
+    - power electronics department  ma kai faculty che?
+    - power electronics department faculty list apo?
+    - mane power electronics department na faculty nu list apo?
+    - mane power electronics engineering department ni faculty ni list apo?
+    - mane power electronics engineering  ni faculty ni list apo?
+    - power electronics engineering ni faculty ni list apo?
+    - power electronics department ni faculty ni list shu che?
+    - mane faculty ni list joiye che power electronics department na?
+    - mane faculty ni list appo power electronics department nu?
+    - mne faculty list aapo power electronics department nu?
+    - mane faculty power electronics department ni list apo
+    - power electronics department ni list apo.
+    - power electronics department faculty ni list apo.
+    - mane power electronics enginering ni list shu che?
+- intent: list_of_faculty_in_power_electronics_department_hi
+  examples: |
+    - power electronics department ke faculty kon hai?
+    - power electronics department ke faculty ki list do
+    - power electronics department ki fakulty konsi hai?
+    - power electronics department faculty kon konsi hai?
+    - power electronics department faculty kon hai?
+    - power electronics engineering faculty ki list do
+    - power electronics engineering department faculty list kya hai?
+    - power electronics deapartment me kon hai?
+    - power electronics department me konsi faculty padhati hai?
+    - muje power electronics department ki faculty ki jankari didjiye
+    - muje power electronics department faculty ki list dijiye
+    - muje power electronics ke faculty ka naam do
+    - muje power electronics department ki faculty ke bare me jankari do
+    - muje faculty ki list do power electronics department k?
+    - muje faculty ka list chahiye power electronics department ka
+    - power electronics department k faculty kon hai?
+    - vgec ke power electronics department me kon hai?
+    - vgec ke power electronics department ki faculty kon hai?
+    - college ke power electronics ki faculty ki list dijiye
+    - vishwakrama college ki power electronics department ki faculty ki list do
+- intent: list_of_faculty_in_power_electronics_department_en
+  examples: |
+    - give me the list of power electronics department faculty
+    - please provide me the list of faculty of power electronics department
+    - list of faculty of power electronics engineering department
+    - list of faculty of power electronics department
+    - faculty of power electronics department
+    - faculty of power electronics engineering department
+    - please give me the list of power electronics faculty
+    - plase give list of faculty of power electronics
+    - can you please provide me the list of power electronics department faculty
+    - I want list of power electronics department faculty
+    - what are the faculty of power electronics department?
+    - what faculty in power electronics department in vgec?
+    - what faculty are there in power electronics department in vgec?
+    - faculty list of power electronics department in college?
+    - faculty list of power electronics department in collage?
+    - list of faculty of power electronics in college
+    - list of faculty of power electronics in collage
+    - faculty list of power electronics engineering department
+    - faculty list of power electronics department
+    - college faculty list of power electronics department
+    - collage faculty list of power electronics engineering department
+- intent: list_of_faculty_in_applied_mechanics_department_gu
+  examples: |
+    - applied mechanics department na faculty nu list apo?
+    - applied mechanics department ni faculty ni list aapo?
+    - applied mechanics department  ma kai faculty che?
+    - applied mechanics department faculty list apo?
+    - mane applied mechanics department na faculty nu list apo?
+    - mane applied mechanics engineering department ni faculty ni list apo?
+    - mane applied mechanics engineering  ni faculty ni list apo?
+    - applied mechanics engineering ni faculty ni list apo?
+    - applied mechanics department ni faculty ni list shu che?
+    - mane faculty ni list joiye che applied mechanics department na?
+    - mane faculty ni list appo applied mechanics department nu?
+    - mne faculty list aapo applied mechanics department nu?
+    - mane faculty applied mechanics department ni list apo
+    - applied mechanics department ni list apo.
+    - applied mechanics department faculty ni list apo.
+    - mane applied mechanics enginering ni list shu che?
+- intent: list_of_faculty_in_applied_mechanics_department_hi
+  examples: |
+    - applied mechanics department ke faculty kon hai?
+    - applied mechanics department ke faculty ki list do
+    - applied mechanics department ki fakulty konsi hai?
+    - applied mechanics department faculty kon konsi hai?
+    - applied mechanics department faculty kon hai?
+    - applied mechanics engineering faculty ki list do
+    - applied mechanics engineering department faculty list kya hai?
+    - applied mechanics deapartment me kon hai?
+    - applied mechanics department me konsi faculty padhati hai?
+    - muje applied mechanics department ki faculty ki jankari didjiye
+    - muje applied mechanics department faculty ki list dijiye
+    - muje applied mechanics ke faculty ka naam do
+    - muje applied mechanics department ki faculty ke bare me jankari do
+    - muje faculty ki list do applied mechanics department k?
+    - muje faculty ka list chahiye applied mechanics department ka
+    - applied mechanics department k faculty kon hai?
+    - vgec ke applied mechanics department me kon hai?
+    - vgec ke applied mechanics department ki faculty kon hai?
+    - college ke applied mechanics ki faculty ki list dijiye
+    - vishwakrama college ki applied mechanics department ki faculty ki list do
+- intent: list_of_faculty_in_applied_mechanics_department_en
+  examples: |
+    - give me the list of applied mechanics department faculty
+    - please provide me the list of faculty of applied mechanics department
+    - list of faculty of applied mechanics engineering department
+    - list of faculty of applied mechanics department
+    - faculty of applied mechanics department
+    - faculty of applied mechanics engineering department
+    - please give me the list of applied mechanics faculty
+    - plase give list of faculty of applied mechanics
+    - can you please provide me the list of applied mechanics department faculty
+    - I want list of applied mechanics department faculty
+    - what are the faculty of applied mechanics department?
+    - what faculty in applied mechanics department in vgec?
+    - what faculty are there in applied mechanics department in vgec?
+    - faculty list of applied mechanics department in college?
+    - faculty list of applied mechanics department in collage?
+    - list of faculty of applied mechanics in college
+    - list of faculty of applied mechanics in collage
+    - faculty list of applied mechanics engineering department
+    - faculty list of applied mechanics department
+    - college faculty list of applied mechanics department
+    - collage faculty list of applied mechanics engineering department
+- intent: list_of_faculty_in_science_and_humanities_department_gu
+  examples: |
+    - science and humanities department na faculty nu list apo?
+    - science and humanities department ni faculty ni list aapo?
+    - science and humanities department  ma kai faculty che?
+    - science and humanities department faculty list apo?
+    - mane science and humanities department na faculty nu list apo?
+    - mane science and humanities engineering department ni faculty ni list apo?
+    - mane science and humanities engineering  ni faculty ni list apo?
+    - science and humanities engineering ni faculty ni list apo?
+    - science and humanities department ni faculty ni list shu che?
+    - mane faculty ni list joiye che science and humanities department na?
+    - mane faculty ni list appo science and humanities department nu?
+    - mne faculty list aapo science and humanities department nu?
+    - mane faculty science and humanities department ni list apo
+    - science and humanities department ni list apo.
+    - science and humanities department faculty ni list apo.
+    - mane science and humanities enginering ni list shu che?
+    - science and humanities department ni faculty ni list aapo
+- intent: list_of_faculty_in_science_and_humanities_department_hi
+  examples: |
+    - science and humanities department ke faculty kon hai?
+    - science and humanities department ke faculty ki list do
+    - science and humanities department ki fakulty konsi hai?
+    - science and humanities department faculty kon konsi hai?
+    - science and humanities department faculty kon hai?
+    - science and humanities engineering faculty ki list do
+    - science and humanities engineering department faculty list kya hai?
+    - science and humanities deapartment me kon hai?
+    - science and humanities department me konsi faculty padhati hai?
+    - muje science and humanities department ki faculty ki jankari didjiye
+    - muje science and humanities department faculty ki list dijiye
+    - muje science and humanities ke faculty ka naam do
+    - muje science and humanities department ki faculty ke bare me jankari do
+    - muje faculty ki list do science and humanities department k?
+    - muje faculty ka list chahiye science and humanities department ka
+    - science and humanities department k faculty kon hai?
+    - vgec ke science and humanities department me kon hai?
+    - vgec ke science and humanities department ki faculty kon hai?
+    - college ke science and humanities ki faculty ki list dijiye
+    - vishwakrama college ki science and humanities department ki faculty ki list do
+- intent: list_of_faculty_in_science_and_humanities_department_en
+  examples: |
+    - give me the list of science and humanities department faculty
+    - please provide me the list of faculty of science and humanities department
+    - list of faculty of science and humanities engineering department
+    - list of faculty of science and humanities department
+    - faculty of science and humanities department
+    - faculty of science and humanities engineering department
+    - please give me the list of science and humanities faculty
+    - plase give list of faculty of science and humanities
+    - can you please provide me the list of science and humanities department faculty
+    - I want list of science and humanities department faculty
+    - what are the faculty of science and humanities department?
+    - what faculty in science and humanities department in vgec?
+    - what faculty are there in science and humanities department in vgec?
+    - faculty list of science and humanities department in college?
+    - faculty list of science and humanities department in collage?
+    - list of faculty of science and humanities in college
+    - list of faculty of science and humanities in collage
+    - faculty list of science and humanities engineering department
+    - faculty list of science and humanities department
+    - college faculty list of science and humanities department
+    - collage faculty list of science and humanities engineering department
+- intent: list_of_branches_en
+  examples: |
+    - Can you please tell me the list of branches available in this college?
+    - Tell me list of branches in this college
+    - could you please tell me the the list of branches in ths college?
+    - could u please tell me list of branches in this college?
+    - could you plz tell me list of branches in this college?
+    - could you please tel me list of branches in this college?
+    - could u plz tel me list of branches in this college?
+    - can i know the list of all branches in this college?
+    - list of all branches available in this college
+    - All branch list of this college
+    - i want to know the list of branches available in this college
+    - Do you know the list of all branches available in this college?
+    - I want to know about all branches available in this college
+    - I want list of all branches of this college
+    - Tell me list of branches available in VGEC.
+    - List of all branches of VGEC college
+    - List of all branches of vgec campus
+    - can i know the list of branches of VGEC campus?
+    - Can you tell me the list of branches available in VGEC campus?
+    - can u tel me the list of branches available in vgec campus?
+    - can you tel me the list of branches available in vgec campus?
+    - I want list of branches of vgec campus
+    - i want list of branches of vgec college
+    - can i know about list of branches available in vgec campus?
+    - Please tell me list of branches available in vgec college.
+    - Please tell me list of branches available in vgec campus.
+    - Plz tel me list of branches in vgec college
+    - Plz tel me list of branches in vgec campus.
+    - List branches in my college
+- intent: list_of_branches_hi
+  examples: |
+    - kya me branches ka list jan sakta hu?
+    - kya me branches ka list jan sakti hu?
+    - Muje branches ka list chahiye jo iss college me chal rahi hai?
+    - Muje branches ka list chahiye.
+    - kya aap muje branches ka list de sakte hai?
+    - aap muje branches ka list de sakte hain?
+    - Krupya muje branches ke list ki jakari dijiye
+    - Krupya muje branches ke list me bata dijiye jo is college me chal rahe hai?
+    - kya main branches ke list jan sakta hu?
+    - kya main branches ke list ke bare me jan sakta hu?
+    - kya main branches ke list jan sakti hu?
+    - kya main branches ki list jan sakti hu?
+    - kya main branches ki list k bare me jan sakti hu?
+    - sari branches ki list chahiye
+    - branches ki list chahiye
+    - kya me jan sakta hu branches ke list k bare mai?
+    - kya main jan sakta hu branches ke list k bare mai?
+    - kya me jan sakti hu branches ke list k bare mai?
+    - kya main jan sakti hu branches ke list k bare mai?
+    - mere ko branches ka list chahiye
+    - Muje branches ka list chahiye
+    - muze branches ka list chahiye
+    - Muje is college ki branches ka list chahiye
+    - Muze is college ki branches ka list chahiye
+    - kya aap muje is college ki branches ka list de sakte hain?
+    - kya aap muje branches ka list de sakte hain?
+    - kya ap muze branches ka list bata sakte hai?
+- intent: list_of_branches_gu
+  examples: |
+    - Mare branch nu list joie che
+    - mare branch nu list joie 6
+    - vgec college ni branch nu list joie che.
+    - vgec college ni branch nu list joie 6.
+    - Hu jani saku vgec college ni branch nu list?
+    - Mare aa collge ni branch nu list janvu 6
+    - mare vgec college ni branch nu list janvu che
+    - branches nu list aapo
+    - tame mane janavi sako aa college ni branches na list vishe?
+    - Hu branches nu list jani saku?
+    - Su hu branches nu list jani saku?
+    - Mare aa college ni branches na list ni mahiti joie che
+    - Mare a college ni branches na list ni jankari joie che
+    - Mre aa college ni brabches na list ni mahiti joie 6
+    - mre aa college ni branches na list ni jankari joie 6
+    - mre vgec college ni branches na list ni mahiti joie che
+    - mre vgec campus ni branches na list ni jankari joie 6.
+    - Aa college ma jetli pn branch che mare anu list joie che
+    - College ni branch nu list jani saku?
+    - College ma jetli pn branches available che mare enu list joie che.
+    - mne branches nu list mali sake?
+- intent: hostel_facility_in_college_en
+  examples: |
+    - Is there any hostel facility available?
+    - Is there any hostel available for students those are coming from out of ahmedabad?
+    - For outsiders any facility to stay in hostel?
+    - Can you please tell me about hostel facility?
+    - Can i know about hostel facility available in college?
+    - I want to know about hostel facility
+    - Can u tell me about hostel facility?
+    - can u plz tell me about hostel facility?
+    - I want to know hostel facility available in vgec campus
+    - Is there any hostel facility available for studens?
+    - is there any hostel facility available for outsiders?
+    - For students any hostel facility is there?
+    - can you tell me regarding hostel facility?
+    - I want to know hostel facility available in vgec college
+- intent: hostel_facility_in_college_hi
+  examples: |
+    - College me hostel ki koi suvidha uplabdh hai?
+    - Bahar se aa rahe students ke liye hostel ki koi suvidha hai?
+    - Rehne ke liye hostel ki suvidha hai?
+    - Kya me hostel suvidha k bare me jan sakta hu?
+    - kya me hostel suvidha k bare me jan sakti hu?
+    - kya mai hostel suvidha k bare me jan sakta hu?
+    - kya mai hostel suvidha k bare me jan sakta hun?
+    - kya main hostel suvidha k bare me jan sakta hun?
+    - kya mai hostel suvidha k bare me jan sakti hu?
+    - kya main hostel suvidha k bare me jan sakti hun?
+    - Muje hostel facility k bare me jankari chahiye
+    - Muze hostel facility ki jankari chahiye
+    - Students ke liye koi hostel ki suvidha hai?
+    - vidharthiyon ke liye koi hostel ki suvidha hai?
+    - Bahar se aa rahe vidharthiyo ke liye hostel suvidha uplabdh hai?
+    - kya aap muje hostel suvidha k bare me bata sakte hai?
+    - kya ap muje hostel facility k bare me bata sakte hai?
+    - kya aap muze hostel suvidha ke bare me kuch jankari de sakte hai?
+    - kya aap muje hostel suvidha k bare me kuch mahiti de sakte hai?
+    - kya ap muje hostel suvidha k bare me bata sakte hai jo college me uplabdh hai?
+    - Muje hostel facility k bare me jankari chahiye thi
+- intent: hostel_facility_in_college_gu
+  examples: |
+    - College ma rehva mate hostel ni koi suvidha che?
+    - College ma rehva mate hostel ni koi suvidha 6?
+    - Bahar thi avta students mate koi hostel ni vyvstha che?
+    - Bahar thi avta vidharthiyo mate koi hostel ni vyvstha che?
+    - Bahar thi avta vidharthiyo mate koi hostel ni vyvstha 6?
+    - Rehva mate hostel ni facility che?
+    - Rehva mate hostel ni suvidha che?
+    - Rehva mate hostel ni suvidha 6?
+    - bahar thi avta vidharthiyo mate hostel ni suvidha che?
+    - Bahar thi avta vidharthiyo mate hostel ni suvidha 6?
+    - Su hu hostel suvidha vishe jani saku?
+    - Mare hostel suvidha ni mahiti joie che
+    - Mre hostel sudhiva ni mahiti joie 6
+    - Mare hostel suvidha bishe janvu hatu tame mane janavi sakso?
+    - Su tame mane hostel suvidha vishe janavi sakso?
+    - Hostel suvidha vishe janavi sakso?
+    - mare hostel suvidha vishe janvu hatu j vgec campus ma 6
+    - mare vgec college ni hostel suvidha ni mahiti joie 6
+    - Mare vgec college ni hostel suvidha ni mahiti joie che
+    - Mre vgec college ni hostel suvidha ni mahiti joie 6
+    - Students mate college ma hostel ni koi suvidha che kahri?
+    - Vidharthiyo mate college ma hostel ni koi suvidha uplabdh che?
+    - vidharthiyo mate college ma hostel ni koi suvidha uplabdh 6?
+    - Students mate college ma hostel ni koi suvisha 6 khari?
+- intent: transportation_facility_in_college_en
+  examples: |
+    - Is there any transportation facility available?
+    - Is there any transportation facility in college?
+    - Can you please tell me about transportation facility?
+    - Can i know about transportation facility available in college?
+    - I want to know about transportation facility
+    - Can u tell me about transportation facility?
+    - can u plz tell me about transportaion facility?
+    - I want to know transportaion facility available in vgec campus
+    - Is there any transportaion facility available for studens?
+    - is there any transportaion facility available for outsiders?
+    - For students any transportaion facility is there?
+    - can you tell me regarding transportaion facility?
+    - I want to know transportaion facility available in vgec college
+    - To reach college is there any transportation facility available in college?
+- intent: trasportation_facility_in_college_hi
+  examples: |
+    - College me transportaion ki koi suvidha uplabdh hai?
+    - Door se aa rahe students ke liye transportaion ki koi suvidha hai?
+    - College me aane k liye transportation ki koi suvidha uplabdh hai?
+    - Kya me transportaion suvidha k bare me jan sakta hu?
+    - kya me transportaion suvidha k bare me jan sakti hu?
+    - kya mai transportaion suvidha k bare me jan sakta hu?
+    - kya mai transportaion suvidha k bare me jan sakta hun?
+    - kya main transportaion suvidha k bare me jan sakta hun?
+    - kya mai transportaion suvidha k bare me jan sakti hu?
+    - kya main transportaion suvidha k bare me jan sakti hun?
+    - Muje transportaion facility k bare me ajnkari chahiye
+    - Muze transportaion facility ki jankari chahiye
+    - Students ke liye koi transportaion ki suvidha hai?
+    - vidharthiyon ke liye koi transportaion ki suvidha hai?
+    - Bahar se aa rahe vidharthiyo ke liye transportaion suvidha uplabdh hai?
+    - kya aap muje transportaion suvidha k bare me bata sakte hai?
+    - kya ap muje transportaion facility k bare me bata sakte hai?
+    - kya aap muze transportaion suvidha ke bare me kuch jankari de sakte hai?
+    - kya aap muje transportaion suvidha k bare me kuch mahiti de sakte hai?
+    - kya ap muje transportaion suvidha k bare me bata sakte hai jo college me uplabdh hai?
+    - Muje transportaion facility k bare me jankari chahiye thi
+    - College pahochne k liye students k liye koi transportation suvidha hai?
+- intent: trasportation_facility_in_college_gu
+  examples: |
+    - College ava mate transportation ni koi suvidha che?
+    - College ava mate parivahan ni koi suvidha che?
+    - College ava mate parivahan ni koi sagvad che?
+    - College avva mate parivahan ni koi suvidha 6?
+    - College avva mate parivahan ni koi sagvad 6?
+    - College ava mate transportation ni koi sagvad che?
+    - college ava mate transportatin ni koi suvidha 6?
+    - college ava mate transportation ni koi savgvad 6?
+    - Door thi avta students mate koi transportation ni vyvstha che?
+    - Dur thi avta vidharthiyo mate koi transportation ni vyvstha che?
+    - Door thi avta vidharthiyo mate koi transportation ni vyvstha 6?
+    - Door thi avta vidharthiyo mate transportation ni suvidha che?
+    - Dur thi avta vidharthiyo mate transportation ni suvidha 6?
+    - Su hu transportation suvidha vishe jani saku?
+    - Mare transportation suvidha ni mahiti joie che
+    - Mre transportation sudhiva ni mahiti joie 6
+    - Mare transportation suvidha bishe janvu hatu tame mane janavi sakso?
+    - Su tame mane transportation suvidha vishe janavi sakso?
+    - transportation suvidha vishe janavi sakso?
+    - mare transportation suvidha vishe janvu hatu j vgec campus ma 6
+    - mare vgec college ni transportation suvidha ni mahiti joie 6
+    - Mare vgec college ni transportation suvidha ni mahiti joie che
+    - Mre vgec college ni transportation suvidha ni mahiti joie 6
+    - Students mate college ma transportation ni koi suvidha che kahri?
+    - Vidharthiyo mate college ma transportation ni koi suvidha uplabdh che?
+    - vidharthiyo mate college ma transportation ni koi suvidha uplabdh 6?
+    - Students mate college ma transportation ni koi suvidha 6 khari?
+    - vgec ma kai transportation facility chhe?
+    - VGEC ma transportation facility chhe?
+- intent: mess_facilities_in_college_en
+  examples: |
+    - Is there any mess facility available?
+    - any mess facility for food?
+    - is there any food facility available?
+    - Is there any mess facility in college?
+    - For outsiders any mess facility for food in college?
+    - Can you please tell me about mess facility?
+    - Can i know about mess facility available in college?
+    - I want to know about mess facility
+    - Can u tell me about mess facility?
+    - can u plz tell me about mess facility?
+    - I want to know mess facility available in vgec campus
+    - Is there any mess facility available for studens?
+    - is there any mess facility available for outsiders?
+    - For students any mess facility is there?
+    - can you tell me regarding mess facility?
+    - I want to know mess facility available in vgec college
+    - is there any mess facility available in college?
+- intent: mess_facilities_in_college_hi
+  examples: |
+    - College me mess ki koi suvidha uplabdh hai?
+    - college me bhojnalay ki koi suvidha uplabdh hai?
+    - College me khane k liye mess ki koi suvidha uplabdh hai?
+    - Kya me mess suvidha k bare me jan sakta hu?
+    - kya me mess suvidha k bare me jan sakti hu?
+    - kya mai mess suvidha k bare me jan sakta hu?
+    - kya mai mess suvidha k bare me jan sakta hun?
+    - kya main mess suvidha k bare me jan sakta hun?
+    - kya mai mess suvidha k bare me jan sakti hu?
+    - kya main mess suvidha k bare me jan sakti hun?
+    - Muje mess facility k bare me jankari chahiye
+    - Muze mess facility ki jankari chahiye
+    - Students ke liye koi mess ki suvidha hai?
+    - vidharthiyon ke liye koi mess ki suvidha hai?
+    - vidharthiyo ke liye bhojanalay ki suvidha hai?
+    - kya aap muje mess suvidha k bare me bata sakte hai?
+    - kya ap muje mess facility k bare me bata sakte hai?
+    - kya aap muze mess suvidha ke bare me kuch jankari de sakte hai?
+    - kya aap muje mess suvidha k bare me kuch mahiti de sakte hai?
+    - kya ap muje mess suvidha k bare me bata sakte hai jo college me uplabdh hai?
+    - Muje mess facility k bare me jankari chahiye thi
+- intent: mess_facilities_in_college_gu
+  examples: |
+    - College ma khava mate mess ni koi suvidha che?
+    - College ma khava mate bhojanshala ni koi suvidha che?
+    - College ma khava mate bhojanshala ni koi sagvad che?
+    - College ma khava mate bhojanshala ni koi suvidha 6?
+    - College ma khava mate bhojanshala ni koi sagvad 6?
+    - college ma khava mate mess ni koi suvidha 6?
+    - college ma khava mate mess ni koi savgvad 6?
+    - Khava mate koi mess ni vyvstha che?
+    - Hostel ma rehta students mate mess ni vyvstha che?
+    - hostel ma rehta vidharthiyo mate mess ni suvidha che?
+    - hostel ma rehta vidharthiyo mate bhojanalay ni suvidha 6?
+    - Su hu mess ni suvidha vishe jani saku?
+    - Mare mess ni  suvidha ni mahiti joie che
+    - Mre mess sudhiva ni mahiti joie 6
+    - Mare mess suvidha ni mahiti joie che
+    - Mare mess suvidha vishe janvu hatu tame mane janavi sakso?
+    - Su tame mane mess ni suvidha vishe janavi sakso?
+    - Mess suvidha vishe janavi sakso?
+    - mare mess suvidha vishe janvu hatu j vgec campus ma 6
+    - mare vgec college ni mess suvidha ni mahiti joie 6
+    - Mare vgec college ni mess suvidha ni mahiti joie che
+    - Mre vgec college ni mess suvidha ni mahiti joie 6
+    - Students mate college ma mess ni koi suvidha che kahri?
+    - Vidharthiyo mate college ma mess ni koi suvidha uplabdh che?
+    - vidharthiyo mate college ma bhojanshala ni koi suvidha uplabdh 6?
+    - Students mate college ma mess ni koi suvidha 6 khari?
+- intent: library_facility_in_college_en
+  examples: |
+    - Is there any library facility available to buy books?
+    - Is there any library facility available for reading?
+    - For students any library facility to read books in college ?
+    - Can you please tell me about library facility?
+    - Can i know about library facility available in college?
+    - I want to know about library facility
+    - Can u tell me about library facility?
+    - can u plz tell me about library facility?
+    - I want to know library facility available in vgec campus
+    - Is there any library facility available for studens?
+    - is there any library facility available for outsiders?
+    - For students any library facility is there?
+    - can you tell me regarding library facility?
+    - I want to know library facility available in vgec college
+    - For study purpose is there any library facility available in college?
+    - Is there any librrary facility available to read book in college?
+    - Is there any library facility available to study in vgec college?
+    - Any library facility for reading available in college?
+    - Any library facility  to purchase new book in college?
+    - can i know about library facility for students to read book in college?
+- intent: library_facility_in_college_hi
+  examples: |
+    - College me library ki koi suvidha uplabdh hai?
+    - students ke liye library ki koi suvidha hai?
+    - Kya me library suvidha k bare me jan sakta hu?
+    - kya me library suvidha k bare me jan sakti hu?
+    - kya mai library suvidha k bare me jan sakta hu?
+    - kya mai library suvidha k bare me jan sakta hun?
+    - kya main library suvidha k bare me jan sakta hun?
+    - kya mai library suvidha k bare me jan sakti hu?
+    - kya main library suvidha k bare me jan sakti hun?
+    - Muje library facility k bare me jankari chahiye
+    - Muze library facility ki jankari chahiye
+    - Students ke liye koi library ki suvidha hai?
+    - vidharthiyon ke liye koi library ki suvidha hai?
+    - kya aap muje library suvidha k bare me bata sakte hai?
+    - kya ap muje library facility k bare me bata sakte hai?
+    - kya aap muze library suvidha ke bare me kuch jankari de sakte hai?
+    - kya aap muje library suvidha k bare me kuch mahiti de sakte hai?
+    - kya ap muje library suvidha k bare me bata sakte hai jo college me uplabdh hai?
+    - Muje library facility k bare me jankari chahiye thi
+    - Students ko reading karne k liye library ki koi suvidha hai?
+    - padhai karne k liye college me library ki koi suvidha hai?
+    - vidharthiyo ko padhai karne k liye library ki koi suvidha hai?
+    - Nai books lene k liye library ki koi suvidha uplabdh hai college me?
+    - Reading karne k liye library ki koi suvidha hai?
+    - Vanchan karne k liye library ki koi suvidha hai?
+- intent: library_facility_in_college_gu
+  examples: |
+    - College ma vanchva mate library ni koi suvidha che?
+    - College ma vanchva mate pustkalay ni koi suvidha che?
+    - College ma vanchva mate pustkalay ni koi sagvad che?
+    - College ma vanchva mate pustkalay ni koi suvidha 6?
+    - College ma vanchva mate library ni koi sagvad 6?
+    - college ma vanchva mate library ni koi suvidha 6?
+    - college ma vanchva mate library ni koi savgvad 6?
+    - Vanchva mate koi library ni vyvstha che?
+    - Su hu library ni suvidha vishe jani saku?
+    - Mare library suvidha ni mahiti joie che
+    - Mre library sudhiva ni mahiti joie 6
+    - Mare library suvidha vishe janvu hatu tame mane janavi sakso?
+    - Su tame mane library ni suvidha vishe janavi sakso?
+    - Library suvidha vishe janavi sakso?
+    - mare library suvidha vishe janvu hatu j vgec campus ma 6
+    - mare vgec college ni library suvidha ni mahiti joie 6
+    - Mare vgec college ni library suvidha ni mahiti joie che
+    - Mre vgec college ni library suvidha ni mahiti joie 6
+    - Students mate college ma library ni koi suvidha che kahri?
+    - Vidharthiyo mate college ma library ni koi suvidha uplabdh che?
+    - vidharthiyo mate college ma pustkalay ni koi suvidha uplabdh 6?
+    - Students mate college ma library ni koi suvisha 6 khari?
+    - Navi books leva mate library ni koi suvidha che?
+    - Navi books leva mate library ni koi sagvad che?
+    - Books joiti hoy to library ni koi suvidha che college ma?
+    - Books joiti hoy to pustkalay ni sagvad che college ma?
+    - book joiti hoy vanchva mate to library ni suvidha 6?
+    - book joiti hoy to library ni suvidha che?
+- intent: sport_facility_in_college_en
+  examples: |
+    - Is there any sports activity available?
+    - any sports activity?
+    - can i know about sports facility available in college?
+    - can you tell me about sports facility available in college?
+    - can you plz tell me about sports facility available in vgec campus?
+    - can you tel me about sports facility available in vgec campus?
+    - For students any sports facility in college ?
+    - Can you please tell me about sport facility?
+    - I want to know about sport facility
+    - Can u tell me about sport facility?
+    - can u plz tell me about sport facility?
+    - I want to know sport facility available in vgec campus
+    - Is there any sport facility available for studens?
+    - For students any sports facility is there?
+    - can you tell me regarding sport facility?
+    - I want to know sport facility available in vgec college
+    - Is there any sport facility available to study in vgec college?
+- intent: sport_facility_in_college_hi
+  examples: |
+    - College me sport ki koi suvidha uplabdh hai?
+    - students ke liye sport ki koi suvidha hai?
+    - Kya me sport suvidha k bare me jan sakta hu?
+    - kya me sport suvidha k bare me jan sakti hu?
+    - kya mai sport suvidha k bare me jan sakta hu?
+    - kya mai sport suvidha k bare me jan sakta hun?
+    - kya main sport suvidha k bare me jan sakta hun?
+    - kya mai sport suvidha k bare me jan sakti hu?
+    - kya main sport suvidha k bare me jan sakti hun?
+    - Muje sport facility k bare me jankari chahiye
+    - Muze sport facility ki jankari chahiye
+    - Students ke liye koi sport ki suvidha hai?
+    - vidharthiyon ke liye koi sport ki suvidha hai?
+    - kya aap muje sport suvidha k bare me bata sakte hai?
+    - kya ap muje sport facility k bare me bata sakte hai?
+    - kya aap muze sport suvidha ke bare me kuch jankari de sakte hai?
+    - kya aap muje sport suvidha k bare me kuch mahiti de sakte hai?
+    - kya ap muje sport suvidha k bare me bata sakte hai jo college me uplabdh hai?
+    - Muje sport facility k bare me jankari chahiye thi
+    - Students ko khelne k liye sport ki koi suvidha hai?
+    - Khelne k liye college me sport ki koi suvidha hai?
+    - vidharthiyo ko khelne k liye sport ki koi suvidha hai?
+- intent: sport_facility_in_college_gu
+  examples: |
+    - College ma ramva mate sport ni koi suvidha che?
+    - College ma rmva mate sport ni koi suvidha che?
+    - College ma ramva mate ramatgamat ni koi sagvad che?
+    - College ma ramva mate ramatgamat ni koi suvidha 6?
+    - College ma rmva mate ramatgamat ni koi sagvad 6?
+    - college ma rmva mate sport ni koi suvidha 6?
+    - college ma ramva mate sport ni koi savgvad 6?
+    - Ramva mate koi sport ni vyvstha che?
+    - Su hu sport ni suvidha vishe jani saku?
+    - Mare sport suvidha ni mahiti joie che
+    - Mre sport sudhiva ni mahiti joie 6
+    - Mare sport suvidha vishe janvu hatu tame mane janavi sakso?
+    - Su tame mane sport ni suvidha vishe janavi sakso?
+    - sport suvidha vishe janavi sakso?
+    - mare sport suvidha vishe janvu hatu j vgec campus ma 6
+    - mare vgec college ni sport suvidha ni mahiti joie 6
+    - Mare vgec college ni sport suvidha ni mahiti joie che
+    - Mre vgec college ni sport suvidha ni mahiti joie 6
+    - Students mate college ma sport ni koi suvidha che kahri?
+    - Vidharthiyo mate college ma sport ni koi suvidha uplabdh che?
+    - vidharthiyo mate college ma ramatgamat ni koi suvidha uplabdh 6?
+    - Students mate college ma sport ni koi suvidha 6 khari?
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+    - Who owns VGEC?
+    - How many students are there in vgec?
+    - How to contact principal?
+    - How to contact HOD of computer?
+    - Who is CEO of Google?
+    - What is 5+2?
+    - What is 5 + 2?
+    - Who created Google?
+    - what is 9+5
+    - can you tell me what time it is
+    - can you tell me about the temperature
+    - can you tell me about today's weather
+    - Tell me current time
+    - tell me today's date
+    - what is today's day?
+    - how to get contact number of hod?
+    - how to get contact number of principal
+    - can you tell me the contact number of hod
+    - please tell me the contact number of principal of vgec
+    - how old hod of comaputer department is ?
+    - how old principal of vgec is?
+    - computer department na hod nu name su chhe?
